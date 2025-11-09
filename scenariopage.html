@@ -9,12 +9,17 @@
 <body>
     <div id="scenario-wrapper">
         <div class="background-container">
-                <div class="image-wrapper"> 
-                    <img id="step-img" src="" alt="stepimg" />
-                    <div class="hotspot-container"></div>
-                </div>
+            
+            <div class="image-wrapper">
+                
+                <img id="step-img" src="" alt="stepimg" />
+                <button class="home-button">
+                    <img src="assets/icons/exitButton.svg" alt="На главную">
+                </button>
+                <div class="hotspot-container"></div>
+            </div>
         </div>
-     </div>
+    </div>
 </body>
 
 <script src="scripts/main.js"></script>
@@ -23,5 +28,10 @@
 <script>
     scenarioHandler();
     setScenarioTitle();
+</script>
+<script>
+    document.querySelector('.home-button').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
 </script>
 </html>
