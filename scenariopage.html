@@ -11,8 +11,14 @@
     <header class="header">
         
         <div class="nav-buttons">
+            <button class="nav-button" id="prev-button">
+                <img src="assets/icons/arrowLeft.svg" alt="Назад">
+            </button>
             <button class="nav-button" id="home-button">
                 <img src="assets/icons/exitButton.svg" alt="На главную">
+            </button>
+            <button class="nav-button" id="next-button">
+                <img src="assets/icons/arrowRight.svg" alt="Вперёд">
             </button>
         </div>
         <div class="logo-and-title">
@@ -40,10 +46,14 @@
     setScenarioTitle();
 </script>
 <script>
+    document.querySelector('#prev-button').addEventListener('click', function() {
+        prevStep();
+    });
     document.querySelector('#home-button').addEventListener('click', function() {
-        // window.location.href = 'index.html';
         backToCategory();
-        // nextStep();
+    });
+    document.querySelector('#next-button').addEventListener('click', function() {
+        nextStep();
     });
 </script>
 </html>
