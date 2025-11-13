@@ -185,4 +185,8 @@ function prevStep() {
 }
 
 
-
+function backToCategory() {
+  // console.log('Navigating back to category:', currentScenario.scenarioCategory);
+  window.location.href = "subsections.html?parent=" + encodeURIComponent(currentScenario.scenarioCategory);
+  return;
+}

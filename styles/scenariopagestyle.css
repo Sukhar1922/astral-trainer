@@ -58,7 +58,7 @@
     width: max-content;
     height: max-content;
   }
-  button.home-button {
+  button.nav-button {
     border: none;
     background-color: #fff;
     z-index: 2;
