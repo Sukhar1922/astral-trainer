@@ -10,6 +10,40 @@
     overflow: hidden;
     background-color: #DDE2E8;
   }
+
+  .header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  }
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .logo-and-title {
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo img {
+    width: auto;
+    height: clamp(24px, 4vw, 40px); 
+    max-width: 100%;
+    display: block;
+  }
+
+  .header-title {
+    color: #072D57;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: calc(14px + (24 - 16) * ((100vw - 375px) / (1440 - 375)));
+  }
+
   .background-container {
     position: relative;
     width: 100vw;
@@ -25,17 +59,10 @@
     height: max-content;
   }
   button.home-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
     border: none;
     background-color: #fff;
     z-index: 2;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 0px;
+    padding: 5px;
     text-align: center;
     justify-content: center;
     cursor: pointer;
