@@ -185,8 +185,14 @@ function prevStep() {
 }
 
 
+function freshLocalStorage() {
+  localStorage.removeItem('hotspot-step');
+}
+
+
 function backToCategory() {
   // console.log('Navigating back to category:', currentScenario.scenarioCategory);
   window.location.href = "subsections.html?parent=" + encodeURIComponent(currentScenario.scenarioCategory);
+  freshLocalStorage();
   return;
 }
