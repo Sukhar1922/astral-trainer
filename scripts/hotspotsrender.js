@@ -67,6 +67,7 @@ function createMascot(position, align, mascotPosition) {
 
 function addHotspot(hs) {
     const container = document.querySelector('.hotspot-container');
+    const imageWrapper = document.querySelector('.image-wrapper');
     const hotspotDiv = document.createElement('div');
     hotspotDiv.className = 'hotspot';
     hotspotDiv.style.pointerEvents = 'auto';
@@ -75,63 +76,23 @@ function addHotspot(hs) {
     hotspotDiv.style.width = hs.width + "%";
     hotspotDiv.style.height = hs.height + "%";
 
-    // Для анимации перемещения хотспота
-    hotspotDiv.animateTo = function(newHs, cb) {
-        hotspotDiv.classList.add('hotspot-animating');
-        hotspotDiv.style.left = newHs.xPercent + "%";
-        hotspotDiv.style.top = newHs.yPercent + "%";
-        hotspotDiv.style.width = newHs.width + "%";
-        hotspotDiv.style.height = newHs.height + "%";
-        setTimeout(() => {
-            hotspotDiv.classList.remove('hotspot-animating');
-            if (cb) cb();
-        }, 350);
-    };
+    // ...existing code...
 
+    const position = hs.tooltipPosition || 'top';
+    const align = hs.tooltipAlign || 'center';
+    const text = hs.tooltipText || 'Tooltip';
 
-
-    
-    const position = hs.tooltipPosition || 'top'; // top, bottom, left, right
-    const align = hs.tooltipAlign || 'center'; // start, center, end
-    const text = hs.tooltipText || 'Tooltip'; // Текст тултипа
-
-    // Классы для тултипа и стрелки
+    // Создаем тултип как отдельный элемент вне контейнера хотспотов
     const tooltip = document.createElement('div');
     tooltip.className = `tooltip tooltip-${position} tooltip-${position}-${align}`;
-    tooltip.innerHTML = text; // Изменено с textContent на innerHTML
+    tooltip.innerHTML = text;
     tooltip.dataset.position = position;
     tooltip.dataset.align = align;
-    tooltip.style.position = 'absolute';
+    tooltip.style.position = 'fixed';
+    tooltip.style.zIndex = '100';
 
-    // Для анимации тултипа
-    tooltip.animateTo = function(newHs, newPosition, newAlign, cb, newText, newTitle) {
-        tooltip.classList.add('tooltip-animating', 'tooltip-hide-arrow');
-        
-        // Анимируем маскота если он есть
-        const mascot = hotspotDiv.querySelector('.tooltip-mascot');
-        if (mascot && mascot.animateTo) {
-            mascot.animateTo(newPosition, newAlign, hs.mascotPosition);
-        }
-        
-        setTimeout(() => {
-            positionTooltip(newHs, newPosition, newAlign);
-            // Меняем текст и заголовок
-            if (typeof newText === 'string') {
-                const p = tooltip.querySelector('p');
-                if (p) p.innerHTML = newText; // Изменено с textContent на innerHTML
-            }
-            if (typeof newTitle === 'string') {
-                const t = tooltip.querySelector('.tooltip-title');
-                if (t) t.textContent = newTitle;
-            }
-            // Меняем классы для стрелки
-            tooltip.className = `tooltip tooltip-${newPosition} tooltip-${newPosition}-${newAlign} tooltip-animating tooltip-hide-arrow`;
-            setTimeout(() => {
-                tooltip.classList.remove('tooltip-animating', 'tooltip-hide-arrow');
-                if (cb) cb();
-            }, 350);
-        }, 200);
-    };
+    // ...existing code для построения tooltipContent...
+
     let arrowClass = '';
     if (position === 'top') {
         if (align === 'start') arrowClass = 'tooltip-arrow-bottom-left';
@@ -154,14 +115,12 @@ function addHotspot(hs) {
     let tooltipContent = '';
     const titleHtml = hs.tooltipTitle ? `<div class="tooltip-title">${hs.tooltipTitle}</div>` : '';
     
-    // Определяем текст кнопки только для невидимых хотспотов
     let buttonText = '';
     if (hs.invisible === true) {
         buttonText = currentStep < currentScenario.totalSteps  ? 'Далее' : 'Завершить';
     }
     const buttonAction = 'nextStep()';
     
-    // Определяем, нужно ли показывать стрелку
     const showArrow = hs.invisible !== true;
     const arrowHtml = showArrow ? `<div class="tooltip-arrow ${arrowClass}"></div>` : '';
     
@@ -225,118 +184,107 @@ function addHotspot(hs) {
             </div>
         `;
     }
-    if(hs.invisible === false)
-        {
-            hotspotDiv.addEventListener('click', function(e) {
-                if (e.target === hotspotDiv) {
-                    nextStep();
-                }
-            });
-        }
 
-        if (hs.invisible === true) {
-            hotspotDiv.style.background = 'transparent';
-            hotspotDiv.style.border = 'none';
-            hotspotDiv.style.boxShadow = 'none';
-            hotspotDiv.style.animation = 'none';
-        }
+    if(hs.invisible === false) {
+        hotspotDiv.addEventListener('click', function(e) {
+            if (e.target === hotspotDiv) {
+                nextStep();
+            }
+        });
+    }
 
-
+    if (hs.invisible === true) {
+        hotspotDiv.style.background = 'transparent';
+        hotspotDiv.style.border = 'none';
+        hotspotDiv.style.boxShadow = 'none';
+        hotspotDiv.style.animation = 'none';
+    }
 
     tooltip.innerHTML = tooltipContent;
-    hotspotDiv.appendChild(tooltip);
-    tooltip.style.display = 'block';
     
     // Добавляем маскота рядом с тултипом (если не отключен)
-    if (hs.showMascot !== false) { // По умолчанию показываем маскота
+    if (hs.showMascot !== false) {
         const mascot = createMascot(position, align, hs.mascotPosition);
         if (mascot) {
-            // Добавляем маскота как дочерний элемент тултипа для правильного позиционирования
             tooltip.appendChild(mascot);
-            // Плавное появление маскота
             setTimeout(() => {
                 mascot.classList.add('mascot-show');
             }, 50);
         }
     }
     
-    // Плавное появление тултипа
-    setTimeout(() => {
-        tooltip.classList.add('tooltip-show');
-    }, 10);
+    // Добавляем тултип в body, а не в хотспот
+    document.body.appendChild(tooltip);
 
-
-    // Функция для позиционирования tooltip (может принимать новые параметры)
+    // Функция для позиционирования tooltip
     function positionTooltip(hsArg = hs, positionArg = position, alignArg = align) {
-        tooltip.style.left = '';
-        tooltip.style.top = '';
-        tooltip.style.width = '';
-        tooltip.style.maxWidth = '';
         requestAnimationFrame(() => {
             const ttRect = tooltip.getBoundingClientRect();
             const hsRect = hotspotDiv.getBoundingClientRect();
-            let left = 0, top = 0;
+
+            let left = hsRect.left;
+            let top = hsRect.top;
+            const gap = 8;
+            
             // TOP
             if (positionArg === 'top') {
                 if (alignArg === 'start') {
-                    left = 0;
+                    left = hsRect.left;
                 } else if (alignArg === 'end') {
-                    left = hsRect.width - ttRect.width;
+                    left = hsRect.right - ttRect.width;
                 } else {
-                    left = (hsRect.width - ttRect.width) / 2;
+                    left = hsRect.left + (hsRect.width - ttRect.width) / 2;
                 }
-                top = -ttRect.height - 8;
+                top = hsRect.top - ttRect.height - gap;
             }
             // BOTTOM
             else if (positionArg === 'bottom') {
                 if (alignArg === 'start') {
-                    left = 0;
+                    left = hsRect.left;
                 } else if (alignArg === 'end') {
-                    left = hsRect.width - ttRect.width;
+                    left = hsRect.right - ttRect.width;
                 } else {
-                    left = (hsRect.width - ttRect.width) / 2;
+                    left = hsRect.left + (hsRect.width - ttRect.width) / 2;
                 }
-                top = hsRect.height + 8;
+                top = hsRect.bottom + gap;
             }
             // LEFT
             else if (positionArg === 'left') {
-                left = -ttRect.width - 8;
+                left = hsRect.left - ttRect.width - gap;
                 if (alignArg === 'start') {
-                    top = 0;
+                    top = hsRect.top;
                 } else if (alignArg === 'end') {
-                    top = hsRect.height - ttRect.height;
+                    top = hsRect.bottom - ttRect.height;
                 } else {
-                    top = (hsRect.height - ttRect.height) / 2;
+                    top = hsRect.top + (hsRect.height - ttRect.height) / 2;
                 }
             }
             // RIGHT
             else if (positionArg === 'right') {
-                left = hsRect.width + 8;
+                left = hsRect.right + gap;
                 if (alignArg === 'start') {
-                    top = 0;
+                    top = hsRect.top;
                 } else if (alignArg === 'end') {
-                    top = hsRect.height - ttRect.height;
+                    top = hsRect.bottom - ttRect.height;
                 } else {
-                    top = (hsRect.height - ttRect.height) / 2;
+                    top = hsRect.top + (hsRect.height - ttRect.height) / 2;
                 }
             }
+            
             tooltip.style.left = `${left}px`;
             tooltip.style.top = `${top}px`;
-            
-            // Позиционируем маскота относительно тултипа
-            const mascot = hotspotDiv.querySelector('.tooltip-mascot');
-            if (mascot) {
-                // Маскот позиционируется относительно тултипа через CSS
-                // Дополнительная логика может быть добавлена здесь при необходимости
-            }
         });
     }
 
-    window.addEventListener('resize', positionTooltip);
+    tooltip.classList.add('tooltip-show');
     setTimeout(positionTooltip, 0);
+    window.addEventListener('resize', positionTooltip);
+    
     hotspotDiv._removeTooltipResize = () => {
         window.removeEventListener('resize', positionTooltip);
+        tooltip.remove();
     };
+
     container.appendChild(hotspotDiv);
 }
 
