@@ -339,3 +339,30 @@ function addHotspot(hs) {
     };
     container.appendChild(hotspotDiv);
 }
+
+
+function updateHotspotPositions() {
+    const stepImg = document.getElementById('step-img');
+    const imageWrapper = document.querySelector('.image-wrapper');
+    const hotspotContainer = document.querySelector('.hotspot-container');
+    
+    if (!stepImg || !imageWrapper || !hotspotContainer) return;
+    
+    // Получаем реальные размеры изображения
+    const imgRect = stepImg.getBoundingClientRect();
+    const wrapperRect = imageWrapper.getBoundingClientRect();
+    
+    // Вычисляем смещение изображения относительно контейнера
+    const offsetX = imgRect.left - wrapperRect.left;
+    const offsetY = imgRect.top - wrapperRect.top;
+    
+    // Масштаб изображения
+    const scaleX = imgRect.width / stepImg.naturalWidth;
+    const scaleY = imgRect.height / stepImg.naturalHeight;
+    
+    // Применяем трансформацию к контейнеру хотспотов
+    hotspotContainer.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scaleX}, ${scaleY})`;
+    hotspotContainer.style.transformOrigin = '0 0';
+    hotspotContainer.style.width = `${stepImg.naturalWidth}px`;
+    hotspotContainer.style.height = `${stepImg.naturalHeight}px`;
+}

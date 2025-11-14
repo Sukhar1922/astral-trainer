@@ -120,8 +120,13 @@ function displayCurrentStep() {
     displayCurrentStep._lastHotspotIndex = currentHotspotIndex;
     setTimeout(() => {
       stepImg.classList.add("show");
+      // Пересчитываем позиции хотспотов после загрузки изображения
+      updateHotspotPositions();
     }, 10);
   };
+
+  // Обновляем позиции при изменении размера окна
+  window.addEventListener('resize', updateHotspotPositions);
 }
 
 
