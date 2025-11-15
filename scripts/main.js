@@ -77,32 +77,30 @@ function displayCurrentStep() {
   const hotspotContainer = document.querySelector(".hotspot-container");
   const stepImg = document.getElementById("step-img");
   if (!stepImg) return;
+  
   stepImg.onclick = null;
 
-  if (displayCurrentStep._lastStep === currentStep && displayCurrentStep._lastHotspotIndex !== undefined && displayCurrentStep._lastHotspotIndex !== currentHotspotIndex) {
-    const prevHotspot = stepData.hotspots[displayCurrentStep._lastHotspotIndex];
-    const newHotspot = stepData.hotspots[currentHotspotIndex];
-    const container = document.querySelector('.hotspot-container');
-    const prevDiv = container && container.firstElementChild;
-    if (prevDiv && prevDiv.animateTo) {
-      const tooltip = prevDiv.querySelector('.tooltip');
-      if (tooltip) tooltip.style.opacity = 0;
-      prevDiv.animateTo(newHotspot, () => {
-        displayCurrentStep._lastHotspotIndex = currentHotspotIndex;
-        hotspotContainer.innerHTML = "";
-        addHotspot(newHotspot);
-      });
-      return;
+  // Удаляем старые тултипы и отписываемся от resize
+  document.querySelectorAll('.tooltip').forEach(tooltip => {
+    tooltip.remove();
+  });
+  
+  // Удаляем обработчик resize для каждого старого хотспота
+  document.querySelectorAll('.hotspot').forEach(hotspot => {
+    if (hotspot._removeTooltipResize) {
+      hotspot._removeTooltipResize();
     }
+  });
+
+  if (displayCurrentStep._lastStep === currentStep && displayCurrentStep._lastHotspotIndex !== undefined && displayCurrentStep._lastHotspotIndex !== currentHotspotIndex) {
+    const currentHotspot = stepData.hotspots[currentHotspotIndex];
+    addHotspot(currentHotspot);
+    displayCurrentStep._lastHotspotIndex = currentHotspotIndex;
+    return;
   }
 
   if (displayCurrentStep._lastStep !== currentStep) {
-    displayCurrentStep._lastHotspotIndex = 0;
-    if (!displayCurrentStep._fromPrevStep) {
-      currentHotspotIndex = 0;
-    }
-    displayCurrentStep._lastStep = currentStep;
-    displayCurrentStep._fromPrevStep = false;
+    hotspotContainer.innerHTML = "";
   }
 
   let displayType = (stepData.display && stepData.display[0]) || "fadeIn";
@@ -110,18 +108,25 @@ function displayCurrentStep() {
   stepImg.style.opacity = "";
   stepImg.style.transform = "";
   stepImg.src = `assets/scenariosimgs/${currentScenario.id}/${stepData.image}`;
+  
   stepImg.onload = () => {
     stepImg.ondragstart = () => false;
     if (window.enableHotspotEditor && hotspotEditorEnabled) window.enableHotspotEditor();
-    hotspotContainer.innerHTML = "";
+    if (displayCurrentStep._lastStep !== currentStep) {
+      hotspotContainer.innerHTML = "";
+    }
     if (stepData.hotspots && stepData.hotspots.length > 0) {
       addHotspot(stepData.hotspots[currentHotspotIndex]);
     }
     displayCurrentStep._lastHotspotIndex = currentHotspotIndex;
     setTimeout(() => {
       stepImg.classList.add("show");
+      updateHotspotPositions();
     }, 10);
   };
+
+  displayCurrentStep._lastStep = currentStep;
+  window.addEventListener('resize', updateHotspotPositions);
 }
 
 
