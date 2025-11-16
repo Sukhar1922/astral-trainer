@@ -21,7 +21,8 @@
           "tooltipTitle": "",
           "tooltipText": "Первый вариант входа по email. Нажмите «Войти в другой аккаунт»",
           "invisible": false,
-          "mascotPosition": "left"
+          "mascotPosition": "left",
+          "verticalOffset": "-200%"
           } 
         ]
       },

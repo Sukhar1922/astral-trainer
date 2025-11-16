@@ -32,6 +32,15 @@ function createMascot(position, align, mascotPosition) {
         mascotSrc = 'assets/icons/mascotLeft.svg'; // Смотрит влево (к тултипу)
     }
     
+    // Кастомное смещение высоты маскота
+    console.log("vertical offset", currentScenario.steps[currentStep-1].hotspots[0].verticalOffset)
+    console.log("step", currentStep)
+
+    if (currentScenario.steps[currentStep-1].hotspots[0].verticalOffset) {
+        verticalOffset = currentScenario.steps[currentStep-1].hotspots[0].verticalOffset;
+        mascot.style.top = verticalOffset;
+    }
+
     mascot.classList.add(mascotClass);
     mascot.src = mascotSrc;
     mascot.alt = 'Mascot';
@@ -76,8 +85,6 @@ function addHotspot(hs) {
     hotspotDiv.style.width = hs.width + "%";
     hotspotDiv.style.height = hs.height + "%";
 
-    // ...existing code...
-
     const position = hs.tooltipPosition || 'top';
     const align = hs.tooltipAlign || 'center';
     const text = hs.tooltipText || 'Tooltip';
@@ -90,8 +97,6 @@ function addHotspot(hs) {
     tooltip.dataset.align = align;
     tooltip.style.position = 'fixed';
     tooltip.style.zIndex = '100';
-
-    // ...existing code для построения tooltipContent...
 
     let arrowClass = '';
     if (position === 'top') {
