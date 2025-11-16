@@ -86,7 +86,8 @@ astral-reporting-trainer/
           "tooltipText": "Текст подсказки",
           "invisible": false,
           "mascotPosition": "left",
-          "showMascot": true
+          "showMascot": true,
+          "verticalOffset": "-50%"
         }
       ]
     }
@@ -109,6 +110,7 @@ astral-reporting-trainer/
 | `invisible` | boolean | Невидимый хотспот | `true`, `false` |
 | `mascotPosition` | string | Позиция маскота | `left`, `right` |
 | `showMascot` | boolean | Показать маскота | `true`, `false` |
+| `verticalOffset` | string | Вертикальное смещение маскота | Любое чсило процентов `50%`, `-100500%` |
 
 ### 4. Добавление в подразделы
 Отредактируйте `subsections.json`:

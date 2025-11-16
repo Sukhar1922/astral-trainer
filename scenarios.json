@@ -21,8 +21,7 @@
           "tooltipTitle": "",
           "tooltipText": "Первый вариант входа по email. Нажмите «Войти в другой аккаунт»",
           "invisible": false,
-          "mascotPosition": "left",
-          "verticalOffset": "-200%"
+          "mascotPosition": "left"
           } 
         ]
       },
@@ -399,7 +398,7 @@
             "tooltipTitle": "",
             "tooltipText": "Поставьте галочку «Без подписания»",
             "invisible": false,
-            "mascotPosition": "left"
+            "mascotPosition": "right"
           }
         ]
       },
@@ -417,7 +416,8 @@
             "tooltipTitle": "",
             "tooltipText": "Нажмите «Далее»",
             "invisible": false,
-            "mascotPosition": "left"
+            "mascotPosition": "left",
+            "verticalOffset": "-50%"
           }
         ]
       },
@@ -435,7 +435,8 @@
             "tooltipTitle": "",
             "tooltipText": "Нажмите «Отправить заявление»",
             "invisible": false,
-            "mascotPosition": "left"
+            "mascotPosition": "left",
+            "verticalOffset": "-50%"
           }
         ]
       },
@@ -526,15 +527,15 @@
         "hotspots": [
           {
             "xPercent": 10.7,
-            "yPercent": 20.2,
-            "width": 20.5,
-            "height": 10.7,
+            "yPercent": 20.1,
+            "width": 27.7,
+            "height": 11.0,
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
             "tooltipText": "Введите в поиск Личный кабинет и нажмите на строчку, которая вышла по поиску",
             "invisible": false,
-            "mascotPosition": "left"
+            "mascotPosition": "right"
           }
         ]
       },
@@ -1504,7 +1505,8 @@
             "tooltipTitle": "",
             "tooltipText": "Откроется Личный кабинет. Для того, чтобы подписать и отправить отчёт, нажмите на кнопку «Отправить»<br><br>ВНИМАНИЕ: на рабочем месте, где открывают личный кабинет, должна быть доступна ЭП для подписания отчёта",
             "invisible": false,
-            "mascotPosition": "left"
+            "mascotPosition": "left",
+            "verticalOffset": "-0%"
           }
         ]
       },
