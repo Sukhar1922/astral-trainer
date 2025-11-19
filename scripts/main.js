@@ -111,6 +111,8 @@ function displayCurrentStep() {
   
   stepImg.onload = () => {
     stepImg.ondragstart = () => false;
+    updateHotspotPositions();
+
     if (window.enableHotspotEditor && hotspotEditorEnabled) window.enableHotspotEditor();
     if (displayCurrentStep._lastStep !== currentStep) {
       hotspotContainer.innerHTML = "";
@@ -118,10 +120,10 @@ function displayCurrentStep() {
     if (stepData.hotspots && stepData.hotspots.length > 0) {
       addHotspot(stepData.hotspots[currentHotspotIndex]);
     }
+    
     displayCurrentStep._lastHotspotIndex = currentHotspotIndex;
     setTimeout(() => {
       stepImg.classList.add("show");
-      updateHotspotPositions();
     }, 10);
   };
 
