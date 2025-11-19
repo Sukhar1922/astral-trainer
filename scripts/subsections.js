@@ -11,6 +11,11 @@ function loadSubsections() {
       }
       document.querySelector('.header-bottom-text').textContent = item.title;
       const cardGrid = document.querySelector('.card-grid');
+
+      const exitCard = document.createElement('div');
+      exitCard.classList.add('card');
+      cardGrid.appendChild(exitCard);
+
       item.subsections.forEach(sub => {
                 const card = document.createElement('div');
                 card.classList.add('card');
@@ -28,10 +33,6 @@ function loadSubsections() {
                 });
 
       });
-
-      const exitCard = document.createElement('div');
-      exitCard.classList.add('card');
-      cardGrid.appendChild(exitCard);
 
       const exitCardButton = document.createElement('button');
       exitCardButton.classList.add('exit-card-button');
