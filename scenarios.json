@@ -1,5 +1,349 @@
 [
   {
+    "id": "applicationWithCertificate",
+    "title": "Подключение к 1С Отчетности",
+    "name": "Заявление с действующим сертификатом",
+    "completeText": "Вы научились отправлять заявление на подключение с действующим сертификатом!",
+    "scenarioCategory": "connectTo1C",
+    "steps": [
+      {
+        "step": 1,
+        "image": "AWC-1.png",
+        "hotspots": [
+          {
+            "xPercent": 62.2,
+            "yPercent": 9.9,
+            "width": 4.5,
+            "height": 3.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте вкладку \"Настройки\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "AWC-2.png",
+        "hotspots": [
+          {
+            "xPercent": 30.9,
+            "yPercent": 18.9,
+            "width": 14.4,
+            "height": 2.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Заявление на подключение к 1С Отчетности\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "AWC-3.png",
+        "hotspots": [
+          {
+            "xPercent": 26.8,
+            "yPercent": 29.4,
+            "width": 1.6,
+            "height": 2.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В заявление подтянутся данные из карточки вашей организации. Выберите пункт \"Использовать существующий сертификат\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "AWC-4.png",
+        "hotspots": [
+          {
+            "xPercent": 41.9,
+            "yPercent": 29.6,
+            "width": 3.0,
+            "height": 2.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для выбора сертификата нажмите \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "AWC-5.png",
+        "hotspots": [
+          {
+            "xPercent": 10.6,
+            "yPercent": 36.4,
+            "width": 9.0,
+            "height": 3.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Из списка сертификатов выбираем необходимый",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "AWC-6.png",
+        "hotspots": [
+          {
+            "xPercent": 10.3,
+            "yPercent": 16.1,
+            "width": 5.4,
+            "height": 3.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для подтверждения нажмите \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "AWC-7.png",
+        "hotspots": [
+          {
+            "xPercent": 10.2,
+            "yPercent": 95.5,
+            "width": 10.0,
+            "height": 3.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для отправки заявления нажмите \"Подписать и отправить\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "AWC-8.png",
+        "hotspots": [
+          {
+            "xPercent": 10.4,
+            "yPercent": 30.6,
+            "width": 4.1,
+            "height": 3.2,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заявление успешно отправлено! Для завершения нажмите на кнопку \"Готово\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "applicationWithNewCertificate",
+    "title": "Подключение к 1С Отчетности",
+    "name": "Заявление с изданием нового сертификата",
+    "completeText": "Вы научились отправлять заявление на подключение с выпуском сертификата!",
+    "scenarioCategory": "connectTo1C",
+    "steps": [
+      {
+        "step": 1,
+        "image": "AWNC-1.png",
+        "hotspots": [
+          {
+            "xPercent": 62.2,
+            "yPercent": 9.9,
+            "width": 4.5,
+            "height": 3.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте вкладку \"Настройки\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "AWNC-2.png",
+        "hotspots": [
+          {
+            "xPercent": 30.9,
+            "yPercent": 18.9,
+            "width": 14.4,
+            "height": 2.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Заявление на подключение к 1С Отчетности\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "AWNC-3.png",
+        "hotspots": [
+          {
+            "xPercent": 20.4,
+            "yPercent": 26.8,
+            "width": 6.1,
+            "height": 2.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на пункт \"Руководитель\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "AWNC-4.png",
+        "hotspots": [
+          {
+            "xPercent": 20.1,
+            "yPercent": 32.1,
+            "width": 11.9,
+            "height": 2.9,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Главный бухгалтер\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "AWNC-5.png",
+        "hotspots": [
+          {
+            "xPercent": 20.1,
+            "yPercent": 59.0,
+            "width": 10.1,
+            "height": 3.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее необходимо выбрать доверенность",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "AWNC-6.png",
+        "hotspots": [
+          {
+            "xPercent": 43.2,
+            "yPercent": 36.9,
+            "width": 4.4,
+            "height": 2.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для указания доверенности нажмите кнопку \"Добавить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "AWNC-7.png",
+        "hotspots": [
+          {
+            "xPercent": 23.8,
+            "yPercent": 18.8,
+            "width": 5.4,
+            "height": 3.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "AWNC-8.png",
+        "hotspots": [
+          {
+            "xPercent": 41.9,
+            "yPercent": 65.7,
+            "width": 5.6,
+            "height": 3.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Доверенность отобразилась в списке. Нажмите \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "AWNC-9.png",
+        "hotspots": [
+          {
+            "xPercent": 10.3,
+            "yPercent": 95.5,
+            "width": 9.5,
+            "height": 3.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для отправки заявления нажмите \"Подписать и отправить\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-50%"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "AWNC-10.png",
+        "hotspots": [
+          {
+            "xPercent": 9.8,
+            "yPercent": 42.8,
+            "width": 4.4,
+            "height": 3.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заявление успешно отправлено! Для завершения нажмите на кнопку \"Готово\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "loginToAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "name": "Вход в личный кабинет",
