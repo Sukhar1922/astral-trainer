@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url('/../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +15,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #f4f4f4;
     height: 100%;
     display: flex;
@@ -49,7 +54,7 @@
   
   .header-title {
     color: #072D57;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     line-height: 20px;
     font-size: calc(14px + (24 - 16) * ((100vw - 375px) / (1440 - 375)));
@@ -68,7 +73,7 @@
   
   .header-bottom-text {
     color: #072D57;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: calc(12px + (24 - 16) * ((100vw - 375px) / (1440 - 375)));
     line-height: var(--web-header-h5-16-medium-line-height, 20px);
     font-weight: bold;
@@ -117,7 +122,7 @@
 .complete-title {
   color: #000;
   text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(18px, 2.5vw, 32px);
   line-height: clamp(26px, 4vw, 44px);
   font-weight: 400;
@@ -126,13 +131,13 @@
 }
 
 .complete-title-bold {
-  font-family: "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: inherit;
 }
 
 .complete-title-regular {
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: inherit;
   white-space: pre-line;
   font-weight: 400;
@@ -142,7 +147,7 @@
 .complete-subtitle {
   color: #000;
   text-align: left;
-  font-family: "Montserrat-Regular", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(14px, 1.5vw, 20px);
   line-height: clamp(20px, 2.5vw, 32px);
   font-weight: 400;
@@ -161,7 +166,7 @@
   padding: clamp(8px, 2vw, 16px) clamp(18px, 4vw, 40px);
   border-radius: 24px;
   font-size: clamp(14px, 1.2vw, 18px);
-  font-family: "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
