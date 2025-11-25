@@ -344,6 +344,981 @@
     ]
   },
   {
+    "id": "creatingMChD",
+    "title": "Работа с МЧД",
+    "name": "Создание и отправка МЧД",
+    "completeText": "Вы научились создавать и регистрировать МЧД.",
+    "scenarioCategory": "workingWithMChD",
+    "steps": [
+      {
+        "step": 1,
+        "image": "C-MChD-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.3,
+            "yPercent": 38.5,
+            "width": 7.5,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейдите в \"Отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "C-MChD-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.7,
+            "yPercent": 25.8,
+            "width": 9.9,
+            "height": 3.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейдите в \"Регламентированные отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "C-MChD-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 28.6,
+            "yPercent": 10.2,
+            "width": 6.1,
+            "height": 2.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте вкладку \"Уведомления\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "C-MChD-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 17.1,
+            "width": 4.4,
+            "height": 2.8,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Создать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "C-MChD-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 36.5,
+            "yPercent": 74.9,
+            "width": 4.7,
+            "height": 2.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Раскройте папку \"МЧД\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "C-MChD-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 38.3,
+            "yPercent": 82.6,
+            "width": 14.5,
+            "height": 3.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Машиночитаемая доверенность (ФНС)\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "C-MChD-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 36.0,
+            "yPercent": 22.3,
+            "width": 6.1,
+            "height": 3.8,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "C-MChD-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 43.7,
+            "yPercent": 37.6,
+            "width": 1.7,
+            "height": 3.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на кнопку с тремя точками напротив поля \"Представитель\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "C-MChD-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 42.3,
+            "yPercent": 44.5,
+            "width": 6.1,
+            "height": 2.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Физическое лицо\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "C-MChD-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 37.8,
+            "yPercent": 25.0,
+            "width": 5.2,
+            "height": 3.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В списке необходимо выделить необходимое физ.лицо. Нажмите енопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "C-MChD-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 21.8,
+            "yPercent": 62.3,
+            "width": 2.4,
+            "height": 2.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для выбора полномочий необходимо нажать кнопку \"Все\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "C-MChD-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 38.1,
+            "yPercent": 70.9,
+            "width": 5.5,
+            "height": 3.1,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся окне можно ограничить полномочия представителя, если это требуется. Нажмите кнопку \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "image": "C-MChD-13.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 9.4,
+            "width": 5.5,
+            "height": 3.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для отправки доверенности нажмите кнопку \"Отправить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "image": "C-MChD-14.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 88.5,
+            "yPercent": 13.1,
+            "width": 5.0,
+            "height": 3.2,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "МЧД отправлена, для получения ответа нажмите \"Обновить\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "image": "C-MChD-15.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 46.0,
+            "yPercent": 49.3,
+            "width": 5.7,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "МЧД зарегистрирована! Для завершения нажмите \"Закрыть\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "applicationWithMChD",
+    "title": "Работа с МЧД",
+    "name": "Заявление 1С-Отчетности с использованием МЧД",
+    "completeText": "Вы научились отправлять заявление с использованием МЧД.",
+    "scenarioCategory": "workingWithMChD",
+    "steps": [
+      {
+        "step": 1,
+        "image": "AW-MChD-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": -0.0,
+            "yPercent": 38.3,
+            "width": 6.4,
+            "height": 3.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейлите в \"отчеты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "AW-MChD-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.5,
+            "yPercent": 25.5,
+            "width": 10.1,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейдите в \"Регламентированные отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "AW-MChD-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 61.4,
+            "yPercent": 9.7,
+            "width": 4.6,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейдите в \"Настройки\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "AW-MChD-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 30.8,
+            "yPercent": 18.9,
+            "width": 25.3,
+            "height": 2.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Заявление на продление 1С-Отчетности или изменение реквизитов\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "60%"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "AW-MChD-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.7,
+            "yPercent": 21.3,
+            "width": 3.7,
+            "height": 2.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В формате заявления на против сотрудника нажмите на кнопку \"Заполнить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "AW-MChD-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 37.5,
+            "yPercent": 24.8,
+            "width": 5.5,
+            "height": 4.1,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В списке Физлиц необходимо выбрать человека, на которого ранее регистрировали МЧД. В первой части обучения мы оформили МЧД на \"_тетс_ Иван Крузенштерн\", он уже выделен, нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "80%"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "AW-MChD-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 21.9,
+            "yPercent": 49.3,
+            "width": 12.7,
+            "height": 2.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Программа обнаружила зарегистрированную МЧД и автоматически подтянула её в заявление. Нажмите на пункт \"Машиночитаемая доверенность\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 8,
+        "image": "AW-MChD-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 33.7,
+            "yPercent": 66.2,
+            "width": 6.1,
+            "height": 3.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся окне можно выбрать доверенность, если программа её автоматически не обнаружила. Нажмите кнопку \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-15%"
+          } 
+        ]
+      },
+      {
+        "step": 9,
+        "image": "AW-MChD-9.png",
+        "hotspots": 
+        [
+          {
+           "xPercent": 89.4,
+            "yPercent": 95.9,
+            "width": 4.8,
+            "height": 3.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-50%"
+          } 
+        ]
+      },
+      {
+        "step": 10,
+        "image": "AW-MChD-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 84.5,
+            "yPercent": 95.6,
+            "width": 9.9,
+            "height": 4.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь кнопка \"Подписать и отправить\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          } 
+        ]
+      },
+      {
+        "step": 11,
+        "image": "AW-MChD-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 48.2,
+            "yPercent": 64.4,
+            "width": 4.2,
+            "height": 4.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заявление успешно отправлено. Далее необходимо обратиться в вашу обслуживающую организацию для его обработки. Нажмите кнопку \"Завершить\"",
+            "invisible": true,
+            "mascotPosition": "right"
+          } 
+        ]
+      }
+    ]
+  },
+  {
+    "id": "settingUpWithFNS",
+    "title": "Работа с МЧД",
+    "name": "Настройка отправок с МЧД ФНС",
+    "completeText": "Вы научили настраивать отправку с МЧД ФНС!",
+    "scenarioCategory": "workingWithMChD",
+    "steps": [
+      {
+        "step": 1,
+        "image": "SUW-FNS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.1,
+            "yPercent": 38.3,
+            "width": 8.9,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейдите в \"Отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "SUW-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 16.8,
+            "yPercent": 30.9,
+            "width": 4.8,
+            "height": 2.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее в \"организации\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "SUW-FNS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 13.1,
+            "yPercent": 18.9,
+            "width": 10.3,
+            "height": 2.8,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте карточку организации",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "SUW-FNS-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 9.9,
+            "yPercent": 61.6,
+            "width": 12.8,
+            "height": 2.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Налоговая инспекция\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "SUW-FNS-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 18.2,
+            "yPercent": 84.6,
+            "width": 6.7,
+            "height": 2.9,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Поставьте точку напротив пункта \"Представитель\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "SUW-FNS-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 24.4,
+            "yPercent": 84.5,
+            "width": 4.3,
+            "height": 3.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Заполнить\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "SUW-FNS-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 67.0,
+            "yPercent": 43.5,
+            "width": 2.0,
+            "height": 4.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В поле представитель \"представитель\" нам необходимо выбрать физическое лицо на которое оформлена МЧД и выпущена электронная подпись",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 8,
+        "image": "SUW-FNS-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 50.9,
+            "yPercent": 47.2,
+            "width": 13.6,
+            "height": 2.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите первого сотрудника из списка",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 9,
+        "image": "SUW-FNS-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 68.1,
+            "yPercent": 61.4,
+            "width": 2.3,
+            "height": 4.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее необходимо выбрать доверенность, зарегистрированную для этого человка",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 10,
+        "image": "SUW-FNS-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 45.2,
+            "yPercent": 41.5,
+            "width": 11.4,
+            "height": 3.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Машиночитаемые доверенности\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 11,
+        "image": "SUW-FNS-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 56.8,
+            "yPercent": 38.1,
+            "width": 4.7,
+            "height": 3.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Кнопка \"ОК\" для подтверждения выбора",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 12,
+        "image": "SUW-FNS-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 26.7,
+            "yPercent": 22.3,
+            "width": 5.1,
+            "height": 4.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся списке выбирается нужная доверенность. Нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 13,
+        "image": "SUW-FNS-13.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 68.5,
+            "yPercent": 64.6,
+            "width": 15.0,
+            "height": 4.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Наименование доверенности, её номер и дату выдачи необходимо всавить в поле выше",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          } 
+        ]
+      },
+      {
+        "step": 14,
+        "image": "SUW-FNS-14.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 36.1,
+            "yPercent": 35.2,
+            "width": 8.9,
+            "height": 3.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для сохранения изменений нажмите \"Записать и закрыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 15,
+        "image": "SUW-FNS-15.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 9.9,
+            "yPercent": 13.6,
+            "width": 9.0,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее нажмите \"Записать и закрыть\" в карточке организации",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      }
+    ]
+  },
+  {
+    "id": "settingUpWithSFR",
+    "title": "Работа с МЧД",
+    "name": "Настройка отправок с МЧД СФР (ФСС)",
+    "completeText": "Вы научили настраивать отправку с МЧД ФНС!",
+    "scenarioCategory": "workingWithMChD",
+    "steps": [
+      {
+        "step": 1,
+        "image": "SUW-SFR-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.1,
+            "yPercent": 38.5,
+            "width": 7.0,
+            "height": 2.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейдите в \"Отчеты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "SUW-SFR-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.5,
+            "yPercent": 25.5,
+            "width": 10.2,
+            "height": 3.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее \"регламентированные отчеты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "SUW-SFR-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 62.1,
+            "yPercent": 9.7,
+            "width": 4.4,
+            "height": 3.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте вкладку \"Настройки\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "SUW-SFR-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 31.9,
+            "yPercent": 32.5,
+            "width": 5.0,
+            "height": 2.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Подключено\" напротив СФР (бывш. ФСС)",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "SUW-SFR-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 69.4,
+            "yPercent": 45.4,
+            "width": 1.8,
+            "height": 3.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Раскройте список доверенностей",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "SUW-SFR-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 45.2,
+            "yPercent": 56.3,
+            "width": 5.4,
+            "height": 3.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для выбора нажмите \"Показать все\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "SUW-SFR-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 26.3,
+            "yPercent": 32.8,
+            "width": 9.4,
+            "height": 4.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Записать и закрыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 8,
+        "image": "SUW-SFR-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 52.5,
+            "yPercent": 69.6,
+            "width": 3.1,
+            "height": 3.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Настройка МЧД для СФР (бывшей ФСС) завершена. Нажмите кнопку \"Завершить\"",
+            "invisible": true,
+            "mascotPosition": "right"
+          } 
+        ]
+      }
+    ]
+  },
+  {
     "id": "loginToAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "name": "Вход в личный кабинет",

@@ -8,6 +8,16 @@
     ]
   },
   {
+    "id": "workingWithMChD",
+    "title": "Работа с МЧД",
+    "subsections": [
+      {"title": "Создание и отправка МЧД", "id": "creatingMChD"},
+      {"title": "Заявление 1С-Отчетности с использованием МЧД", "id": "applicationWithMChD"},
+      {"title": "Настройка отправок с МЧД ФНС", "id": "settingUpWithFNS"},
+      {"title": "Настройка отправок с МЧД СФР (ФСС)", "id": "settingUpWithSFR"}
+    ]
+  },
+  {
     "id": "1cReportAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "subsections": [
