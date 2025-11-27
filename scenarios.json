@@ -3,7 +3,7 @@
     "id": "applicationWithCertificate",
     "title": "Подключение к 1С Отчетности",
     "name": "Заявление с действующим сертификатом",
-    "completeText": "Вы научились отправлять заявление на подключение с действующим сертификатом!",
+    "completeText": "Вы научились отправлять заявление на подключение \nс действующим сертификатом!",
     "scenarioCategory": "connectTo1C",
     "steps": [
       {
@@ -157,7 +157,7 @@
     "id": "applicationWithNewCertificate",
     "title": "Подключение к 1С Отчетности",
     "name": "Заявление с изданием нового сертификата",
-    "completeText": "Вы научились отправлять заявление на подключение с выпуском сертификата!",
+    "completeText": "Вы научились отправлять заявление на подключение \nс выпуском сертификата!",
     "scenarioCategory": "connectTo1C",
     "steps": [
       {
@@ -3098,6 +3098,1504 @@
             "tooltipText": "В личном кабинете отчёт отобразился и статус документа поменялся на «Отправлен»",
             "invisible": false,
             "mascotPosition": "left"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "creatingUser",
+    "title": "Многопользовательский режим",
+    "name": "Создание пользователей",
+    "completeText": "Вы научились создавать пользователя в \n«Многопользовательском режиме».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "CU-1.png",
+        "hotspots": [
+          {
+            "xPercent": 0.8,
+            "yPercent": 61.9,
+            "width": 13.4,
+            "height": 3.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- режима в 1С должны быть заведены пользователи. Для их создания перейдите в раздел \"Администрирование\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "CU-2.png",
+        "hotspots": [
+          {
+            "xPercent": 17.6,
+            "yPercent": 45.4,
+            "width": 16.5,
+            "height": 3.3,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Настройки пользователей и прав\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "CU-3.png",
+        "hotspots": [
+          {
+            "xPercent": 15.3,
+            "yPercent": 17.9,
+            "width": 11.4,
+            "height": 6.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте раздел \"Пользователи\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "CU-4.png",
+        "hotspots": [
+          {
+            "xPercent": 15.1,
+            "yPercent": 12.7,
+            "width": 8.4,
+            "height": 5.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для добавления пользователя нажмите кнопку \"Создать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "CU-5.png",
+        "hotspots": [
+          {
+            "xPercent": 29.7,
+            "yPercent": 22.7,
+            "width": 33.7,
+            "height": 5.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Введите полное имя пользователя",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "CU-5.png",
+        "hotspots": [
+          {
+            "xPercent": 25.4,
+            "yPercent": 44.0,
+            "width": 33.1,
+            "height": 5.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Введите имя пользователя для входа",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "CU-6.png",
+        "hotspots": [
+          {
+            "xPercent": 66.3,
+            "yPercent": 79.5,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Полное имя и имя для входа введены. Нажмите на \"Завершить\"",
+            "invisible": true,
+            "mascotPosition": "left"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "applicationForActivation",
+    "title": "Многопользовательский режим",
+    "name": "Создание заявления на подключение",
+    "completeText": "Вы знаете, как создавать заявление на \nподключение в «Многопользовательском режиме».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "AFA-1.png",
+        "hotspots": [
+          {
+            "xPercent": 57.1,
+            "yPercent": 13.5,
+            "width": 6.0,
+            "height": 4.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- Нажмите на значение, указанное в строке \"Пользователи\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "AFA-2.png",
+        "hotspots": [
+          {
+            "xPercent": 20.7,
+            "yPercent": 27.5,
+            "width": 22.8,
+            "height": 4.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Многопользовательский режим\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "AFA-3.png",
+        "hotspots": [
+          {
+            "xPercent": 53.4,
+            "yPercent": 58.1,
+            "width": 9.8,
+            "height": 5.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку продолжить",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "AFA-4.png",
+        "hotspots": [
+          {
+            "xPercent": 21.4,
+            "yPercent": 52.5,
+            "width": 2.8,
+            "height": 12.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пользователей, которых хотите подключить к многопользовательскому режиму. Один из пользователей должен быть с ролью Администратор. По умолчанию эта роль назначается руководителю и пользователю, который отправляет отчётность.",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "AFA-5.png",
+        "hotspots": [
+          {
+            "xPercent": 24.4,
+            "yPercent": 53.7,
+            "width": 56.4,
+            "height": 3.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Настроим права пользователю. Выделите пользователя",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "AFA-6.png",
+        "hotspots": [
+          {
+            "xPercent": 27.5,
+            "yPercent": 44.0,
+            "width": 8.5,
+            "height": 4.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Изменить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "AFA-7.png",
+        "hotspots": [
+          {
+            "xPercent": 29.8,
+            "yPercent": 50.9,
+            "width": 2.8,
+            "height": 4.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Изменим роль пользователя на \"Администратора\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "AFA-8.png",
+        "hotspots": [
+          {
+            "xPercent": 29.8,
+            "yPercent": 58.2,
+            "width": 18.5,
+            "height": 6.9,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберем \"Доступ к гос. органам\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "AFA-9.png",
+        "hotspots": [
+          {
+            "xPercent": 37.8,
+            "yPercent": 14.3,
+            "width": 19.6,
+            "height": 4.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Произвольный состав гос. органов\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "AFA-10.png",
+        "hotspots": [
+          {
+            "xPercent": 16.7,
+            "yPercent": 37.2,
+            "width": 14.5,
+            "height": 3.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- Выделите направление",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "AFA-11.png",
+        "hotspots": [
+          {
+            "xPercent": 24.0,
+            "yPercent": 22.0,
+            "width": 6.6,
+            "height": 4.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Удалить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "AFA-12.png",
+        "hotspots": [
+          {
+            "xPercent": 50.8,
+            "yPercent": 56.8,
+            "width": 3.6,
+            "height": 5.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Снимите отметку \"Росприроднадзор\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "image": "AFA-13.png",
+        "hotspots": [
+          {
+            "xPercent": 16.2,
+            "yPercent": 88.8,
+            "width": 8.4,
+            "height": 5.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Снимите отметку, чтобы пользователь не смог получать и расшифровывать письма, рассылки, уведомления, и требования. Сохраните изменения.",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "image": "AFA-14.png",
+        "hotspots": [
+          {
+            "xPercent": 30.0,
+            "yPercent": 69.6,
+            "width": 2.3,
+            "height": 3.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Проставьте отметку \"Направлять по электронной почте\" для получения на электронную почту уведомлений об изменениях в правах. На указанную почту поступит приглашение для подключения",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "image": "AFA-15.png",
+        "hotspots": [
+          {
+            "xPercent": 49.3,
+            "yPercent": 68.9,
+            "width": 22.6,
+            "height": 4.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Введите адрес элктронной почты. На указанную почту поступит приглашение для подключения",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 16,
+        "image": "AFA-16.png",
+        "hotspots": [
+          {
+            "xPercent": 30.1,
+            "yPercent": 74.9,
+            "width": 8.3,
+            "height": 5.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сохраните изменения",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 17,
+        "image": "AFA-17.png",
+        "hotspots": [
+          {
+            "xPercent": 21.2,
+            "yPercent": 87.2,
+            "width": 8.2,
+            "height": 4.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- изменения",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 18,
+        "image": "AFA-18.png",
+        "hotspots": [
+          {
+            "xPercent": 30.7,
+            "yPercent": 66.8,
+            "width": 15.7,
+            "height": 8.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- необходимые поля заявления",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 19,
+        "image": "AFA-19.png",
+        "hotspots": [
+          {
+            "xPercent": 15.6,
+            "yPercent": 94.3,
+            "width": 14.0,
+            "height": 4.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Нажмите кнопку \"Отправить заявление\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "applicationForChange",
+    "title": "Многопользовательский режим",
+    "name": "Создание заявления на изменение",
+    "completeText": "Вы научились делать заявление на изменение \n в «Многопользовательском режиме».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "AFC-1.png",
+        "hotspots": [
+          {
+            "xPercent": 33.4,
+            "yPercent": 12.9,
+            "width": 35.8,
+            "height": 4.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте заявление на продление 1С-Отчетности или изменение реквизитов. Проставьте отметку \"Пользователи\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "AFC-2.png",
+        "hotspots": [
+          {
+            "xPercent": 64.9,
+            "yPercent": 12.4,
+            "width": 4.5,
+            "height": 5.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на значение в строке \"Пользователи\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "AFC-3.png",
+        "hotspots": [
+          {
+            "xPercent": 18.8,
+            "yPercent": 27.6,
+            "width": 26.2,
+            "height": 3.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Многопользовательский режим\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "AFC-4.png",
+        "hotspots": [
+          {
+            "xPercent": 51.5,
+            "yPercent": 57.7,
+            "width": 9.4,
+            "height": 4.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Продолжить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "AFC-5.png",
+        "hotspots": [
+          {
+            "xPercent": 19.1,
+            "yPercent": 58.9,
+            "width": 17.9,
+            "height": 4.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пользователей, которых хотите подключить к многопользовательскому режиму. Один из пользователей должен быть с ролью Администратор. По умолчанию эта роль назначается руководителю и пользователю, который отправляет заявление на подключение многопользовательского режима",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "AFC-6.png",
+        "hotspots": [
+          {
+            "xPercent": 18.8,
+            "yPercent": 52.3,
+            "width": 18.1,
+            "height": 3.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Добавим пользователя, чтобы настроить ему права администратора",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "AFC-7.png",
+        "hotspots": [
+          {
+            "xPercent": 18.8,
+            "yPercent": 52.3,
+            "width": 18.1,
+            "height": 3.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Настроим права пользователю. Выделите пользователя",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "AFC-8.png",
+        "hotspots": [
+          {
+            "xPercent": 25.0,
+            "yPercent": 43.6,
+            "width": 9.1,
+            "height": 5.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Нажмите кнопку \"Изменить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "AFC-9.png",
+        "hotspots": [
+          {
+            "xPercent": 20.5,
+            "yPercent": 52.0,
+            "width": 17.7,
+            "height": 6.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Изменим роль пользователя на \"Администратора\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "AFC-10.png",
+        "hotspots": [
+          {
+            "xPercent": 20.4,
+            "yPercent": 59.5,
+            "width": 14.9,
+            "height": 6.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберем \"Доступ пользователя к гос. органам\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "AFC-11.png",
+        "hotspots": [
+          {
+            "xPercent": 28.4,
+            "yPercent": 11.3,
+            "width": 19.8,
+            "height": 3.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Произвольный состав гос. органов\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "AFC-12.png",
+        "hotspots": [
+          {
+            "xPercent": 7.4,
+            "yPercent": 31.2,
+            "width": 13.7,
+            "height": 2.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Удалим одно из направлений ФНС. Выделите направление",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "image": "AFC-13.png",
+        "hotspots": [
+          {
+            "xPercent": 14.4,
+            "yPercent": 18.8,
+            "width": 7.0,
+            "height": 4.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Удалить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "image": "AFC-14.png",
+        "hotspots": [
+          {
+            "xPercent": 41.3,
+            "yPercent": 58.6,
+            "width": 3.4,
+            "height": 4.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Проставьте отметку \"Федеральная таможенная служба\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "image": "AFC-15.png",
+        "hotspots": [
+          {
+            "xPercent": 6.0,
+            "yPercent": 64.9,
+            "width": 3.5,
+            "height": 5.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Снимем отметку, чтобы пользователь не смог получать и расшифровывать письма, рассылки, уведомления и требования",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 16,
+        "image": "AFC-16.png",
+        "hotspots": [
+          {
+            "xPercent": 6.6,
+            "yPercent": 79.3,
+            "width": 8.3,
+            "height": 4.3,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сохраните изменения",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 17,
+        "image": "AFC-17.png",
+        "hotspots": [
+          {
+            "xPercent": 20.7,
+            "yPercent": 70.9,
+            "width": 19.1,
+            "height": 3.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Проставьте отметку \"Направлять по электронной почте\" для получения на электронную почту уведомлений об изменениях в правах. На указанную почту поступит приглашение для подключения",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 18,
+        "image": "AFC-18.png",
+        "hotspots": [
+          {
+            "xPercent": 40.2,
+            "yPercent": 70.7,
+            "width": 22.3,
+            "height": 3.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Введите адрес элктронной почты. На указанную почту поступит приглашение для подключения",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 19,
+        "image": "AFC-19.png",
+        "hotspots": [
+          {
+            "xPercent": 20.6,
+            "yPercent": 76.3,
+            "width": 8.7,
+            "height": 4.9,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сохраните изменения",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 20,
+        "image": "AFC-20.png",
+        "hotspots": [
+          {
+            "xPercent": 18.8,
+            "yPercent": 86.7,
+            "width": 8.2,
+            "height": 5.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Сохраните изменения",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 21,
+        "image": "AFC-21.png",
+        "hotspots": [
+          {
+            "xPercent": 84.7,
+            "yPercent": 94.4,
+            "width": 6.0,
+            "height": 4.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заполните все остальные необходимые поля заявления и нажмите \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 22,
+        "image": "AFC-22.png",
+        "hotspots": [
+          {
+            "xPercent": 77.0,
+            "yPercent": 94.2,
+            "width": 14.1,
+            "height": 4.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Отправить заявление\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "addingNewUserWithoutInvite",
+    "title": "Многопользовательский режим",
+    "name": "Подключение дополнительных пользователей без приглашения",
+    "completeText": "Вы разобрались, как делать подключение\n дополнительных пользователей без приглашения\n в «Многопользовательском режиме».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "ANU-WoI-1.png",
+        "hotspots": [
+          {
+            "xPercent": 15.7,
+            "yPercent": 54.8,
+            "width": 11.1,
+            "height": 4.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- получить роль администратора. Для этого отправьте заявление на изменение. Поставьте флажок \"Права доступа\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "ANU-WoI-2.png",
+        "hotspots": [
+          {
+            "xPercent": 33.9,
+            "yPercent": 55.1,
+            "width": 8.2,
+            "height": 3.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на строку \"Пользователь\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "ANU-WoI-3.png",
+        "hotspots": [
+          {
+            "xPercent": 30.6,
+            "yPercent": 46.9,
+            "width": 19.4,
+            "height": 6.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Поставьте флажок \"Администратор учетной записи\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "ANU-WoI-4.png",
+        "hotspots": [
+          {
+            "xPercent": 51.5,
+            "yPercent": 61.5,
+            "width": 15.9,
+            "height": 4.8,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Изменить самостоятельно\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "ANU-WoI-5.png",
+        "hotspots": [
+          {
+            "xPercent": 33.6,
+            "yPercent": 57.1,
+            "width": 8.1,
+            "height": 4.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сохраните изменения",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "ANU-WoI-6.png",
+        "hotspots": [
+          {
+            "xPercent": 77.2,
+            "yPercent": 73.8,
+            "width": 6.6,
+            "height": 3.9,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте заявление на предоставление прав по ссылке",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "ANU-WoI-7.png",
+        "hotspots": [
+          {
+            "xPercent": 16.3,
+            "yPercent": 12.3,
+            "width": 7.7,
+            "height": 4.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Распечатайте заявление, затем закройте его",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "ANU-WoI-8.png",
+        "hotspots": [
+          {
+            "xPercent": 43.6,
+            "yPercent": 73.4,
+            "width": 8.4,
+            "height": 4.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Прикрепите скан заявления на предоставление прав с печатью и подписью руководителя организации. Нажмите \"Выбрать файл\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "ANU-WoI-9.png",
+        "hotspots": [
+          {
+            "xPercent": 29.4,
+            "yPercent": 26.1,
+            "width": 10.8,
+            "height": 4.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выделите скан документа",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "ANU-WoI-10.png",
+        "hotspots": [
+          {
+            "xPercent": 57.6,
+            "yPercent": 64.4,
+            "width": 7.6,
+            "height": 4.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Открыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "ANU-WoI-11.png",
+        "hotspots": [
+          {
+            "xPercent": 84.3,
+            "yPercent": 93.7,
+            "width": 7.0,
+            "height": 5.8,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заполним все остальные необходимые поля заявления и нажмите \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "ANU-WoI-12.png",
+        "hotspots": [
+          {
+            "xPercent": 77.2,
+            "yPercent": 94.3,
+            "width": 13.9,
+            "height": 4.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Нажмите на \"Отправить заявление\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "addingNewUserWithInvite",
+    "title": "Многопользовательский режим",
+    "name": "Подключение дополнительных пользователей через приглашения",
+    "completeText": "Вы поняли, как делать подключение \nдополнительных пользователей через приглашения \nв «Многопользовательском режиме».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "ANU-WI-1.png",
+        "hotspots": [
+          {
+            "xPercent": 30.1,
+            "yPercent": 63.1,
+            "width": 15.2,
+            "height": 4.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После обработки заявления на подключение многопользовательского режима на вашу почту (указанную в заявлении) поступит уведомление с приглашением на подключение к сервису. Нажмите кнопку \"Подготовить заявление\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "ANU-WI-2.png",
+        "hotspots": [
+          {
+            "xPercent": 41.7,
+            "yPercent": 43.3,
+            "width": 23.4,
+            "height": 3.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся заявлении автоматически подтянутся ваши данные, проверьте их. Если уже имеется выпущенный сертификат, то его можно использовать. Установите флажок в пункте \"Использовать существующий сертификат\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "ANU-WI-3.png",
+        "hotspots": [
+          {
+            "xPercent": 65.0,
+            "yPercent": 43.1,
+            "width": 7.6,
+            "height": 3.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "ANU-WI-4.png",
+        "hotspots": [
+          {
+            "xPercent": 60.3,
+            "yPercent": 52.0,
+            "width": 4.4,
+            "height": 4.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Укажите, где хранится ваш сертификат и нажмите кнопку \"Ок\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "ANU-WI-5.png",
+        "hotspots": [
+          {
+            "xPercent": 16.9,
+            "yPercent": 93.6,
+            "width": 13.8,
+            "height": 4.7,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После выбора сертификата нажмите кнопку \"Отправить заявление\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "disablingMultiUserMode",
+    "title": "Многопользовательский режим",
+    "name": "Отключение многопользовательского режима",
+    "completeText": "Теперь вы также знаете, как отключить \n«Многопользовательский режим».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "DMUM-1.png",
+        "hotspots": [
+          {
+            "xPercent": 65.0,
+            "yPercent": 12.4,
+            "width": 4.0,
+            "height": 5.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В заявлении на продление 1С-Отчетности или изменении реквизитов проставьте отметку \"Пользователи\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "DMUM-2.png",
+        "hotspots": [
+          {
+            "xPercent": 24.2,
+            "yPercent": 26.8,
+            "width": 22.8,
+            "height": 4.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на строку \"Многопользовательский режим\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "DMUM-3.png",
+        "hotspots": [
+          {
+            "xPercent": 24.2,
+            "yPercent": 18.2,
+            "width": 2.8,
+            "height": 4.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Однопользовательский режим\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "DMUM-4.png",
+        "hotspots": [
+          {
+            "xPercent": 84.4,
+            "yPercent": 94.3,
+            "width": 6.3,
+            "height": 4.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заполните все остальные необходимые поля заявления и нажмите \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "DMUM-5.png",
+        "hotspots": [
+          {
+            "xPercent": 76.8,
+            "yPercent": 93.7,
+            "width": 14.6,
+            "height": 5.8,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Отправить заявление\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "changingMultiUserMode",
+    "title": "Многопользовательский режим",
+    "name": "Изменение многопользовательского режима",
+    "completeText": "Теперь вы сможете внести изменения \nв «Многопользовательский режим».",
+    "scenarioCategory": "multiUserMode",
+    "steps": [
+      {
+        "step": 1,
+        "image": "CMUM-1.png",
+        "hotspots": [
+          {
+            "xPercent": 65.3,
+            "yPercent": 12.6,
+            "width": 5.6,
+            "height": 5.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте заявление на продление 1С-Отчетности или изменение реквизитов. Для изменения гос. органов проставьте отметку \"Гос. органы учетной записи\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "CMUM-2.png",
+        "hotspots": [
+          {
+            "xPercent": 34.1,
+            "yPercent": 56.0,
+            "width": 17.8,
+            "height": 4.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на строку, в которой перечислены подключенные гос. органы",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "CMUM-3.png",
+        "hotspots": [
+          {
+            "xPercent": 13.3,
+            "yPercent": 56.5,
+            "width": 28.1,
+            "height": 3.8,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Удалим направление СФР. Снимите отметку с пункта \"Социальный фонд (бывш. ПФР и ФСС)\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "CMUM-4.png",
+        "hotspots": [
+          {
+            "xPercent": 33.9,
+            "yPercent": 58.2,
+            "width": 19.8,
+            "height": 4.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Отключить всем пользователям\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "CMUM-5.png",
+        "hotspots": [
+          {
+            "xPercent": 12.8,
+            "yPercent": 80.7,
+            "width": 8.3,
+            "height": 4.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "CMUM-6.png",
+        "hotspots": [
+          {
+            "xPercent": 34.1,
+            "yPercent": 58.9,
+            "width": 24.6,
+            "height": 3.8,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее отключим одного из пользователей от 1С-Отчетности. Нажмите на троку \"Многопользовательский режим\" значение в строке \"Пользователи\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "CMUM-7.png",
+        "hotspots": [
+          {
+            "xPercent": 13.7,
+            "yPercent": 66.5,
+            "width": 3.1,
+            "height": 4.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Снимите флажок с одного из пользователей",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "CMUM-8.png",
+        "hotspots": [
+          {
+            "xPercent": 13.0,
+            "yPercent": 81.1,
+            "width": 9.0,
+            "height": 5.2,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "CMUM-9.png",
+        "hotspots": [
+          {
+            "xPercent": 84.5,
+            "yPercent": 94.3,
+            "width": 6.4,
+            "height": 4.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заполните все остальные необходимые поля заявления и отправьте заявление",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-20%"
           }
         ]
       }

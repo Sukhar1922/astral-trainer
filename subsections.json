@@ -29,5 +29,18 @@
       {"title": "Отправка отчетов на ЛК ПРОФ", "id": "sendReportsToProf"},
       {"title": "Отправка отчетов на ЛК Базовый", "id": "sendReportsToBasic"}
     ]
+  },
+  {
+    "id": "multiUserMode",
+    "title": "Многопользовательский режим",
+    "subsections": [
+      {"title": "Создание пользователей", "id": "creatingUser"},
+      {"title": "Создание заявления на подключение", "id": "applicationForActivation"},
+      {"title": "Создание заявления на изменение", "id": "applicationForChange"},
+      {"title": "Подключение дополнительных пользователей без приглашения", "id": "addingNewUserWithoutInvite"},
+      {"title": "Подключение дополнительных пользователей через приглашения", "id": "addingNewUserWithInvite"},
+      {"title": "Отключение многопользовательского режима", "id": "disablingMultiUserMode"},
+      {"title": "Изменение многопользовательского режима", "id": "changingMultiUserMode"}
+    ]
   }
 ]
