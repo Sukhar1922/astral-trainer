@@ -1,6 +1,18 @@
 server {
     listen 80;
     server_name _; # if you have domain name change '_' to the domain name
+
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name _; # if you have domain name change '_' to the domain name
+
+    ssl_certificate /etc/nginx/ssl/selfsigned.crt; # if you need you may change ssl path 
+    ssl_certificate_key /etc/nginx/ssl/private.key; # if you need you may change ssl path
+    ssl_protocols TLSv1.2 TLSv1.3;  
+    ssl_ciphers HIGH:!aNULL:!MD5; 
     
     root /home/username/astral-trainer/; # change current path to the application
 
@@ -19,6 +31,10 @@ server {
     }
 
     location ~* \.(md|env|config|lock)$ {
+        deny all;
+    }
+
+    location /host/ {
         deny all;
     }
 
