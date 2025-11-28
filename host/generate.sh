@@ -10,5 +10,5 @@ sudo openssl req -x509 -nodes -days 365 \
   -subj "/CN=$SERVER_IP"
 
 echo "Сертификаты созданы:"
-echo "  ssl/self.key"
-echo "  ssl/self.crt"
+echo "  self.key"
+echo "  self.crt"
