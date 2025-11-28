@@ -1,0 +1,19 @@
+[Unit]
+Description=Astral Trainer static server (python http.server)
+After=network.target
+
+[Service]
+# change username
+User=username
+Group=www-data
+# change path
+WorkingDirectory=/home/username/astral-trainer
+
+# you may change exec if you need
+ExecStart=/usr/bin/python3 -m http.server 8000 -b 127.0.0.1
+
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
