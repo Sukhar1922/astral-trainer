@@ -173,8 +173,7 @@ function prevStep() {
   
   // Если мы на первом шаге, переходим обратно на subsections.html
   if (currentStep === 1) {
-    localStorage.removeItem('hotspot-step');
-    window.location.href = "subsections.html?parent=" + encodeURIComponent(currentScenario.scenarioCategory);
+    backToCategory();
     return;
   }
   
@@ -199,6 +198,13 @@ function freshLocalStorage() {
 
 function backToCategory() {
   // console.log('Navigating back to category:', currentScenario.scenarioCategory);
+  console.log("scenarioCategory: " + currentScenario.scenarioCategory);
+  console.log("scenarioId: " + currentScenario.id);
+  if (currentScenario.scenarioCategory == currentScenario.id){
+    const url = new URL(window.location);
+    window.location.href = url.origin;
+    return;
+  }
   window.location.href = "subsections.html?parent=" + encodeURIComponent(currentScenario.scenarioCategory);
   freshLocalStorage();
   return;

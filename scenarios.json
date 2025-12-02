@@ -344,6 +344,14 @@
     ]
   },
   {
+    "id": "workingWithELN",
+    "title": "Работа с ЭЛН по СЭДО СФР (бывший ФСС)",
+    "name": "Работа с ЭЛН по СЭДО СФР (бывший ФСС)",
+    "completeText": "",
+    "scenarioCategory": "workingWithELN",
+    "steps": []
+  },
+  {
     "id": "creatingMChD",
     "title": "Работа с МЧД",
     "name": "Создание и отправка МЧД",

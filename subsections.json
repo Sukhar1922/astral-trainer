@@ -8,6 +8,10 @@
     ]
   },
   {
+    "id": "workingWithELN",
+    "title": "Работа с ЭЛН по СЭДО СФР (бывший ФСС)"
+  },
+  {
     "id": "workingWithMChD",
     "title": "Работа с МЧД",
     "subsections": [
