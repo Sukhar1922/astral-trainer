@@ -638,6 +638,566 @@
     ]
   },
   {
+    "id": "workingWithFNS",
+    "title": "Работа с требованиями ФНС",
+    "name": "Работа с требованиями ФНС",
+    "completeText": "Вы научились работать с требованиями и \nотправлять ответ на них!",
+    "scenarioCategory": "workingWithFNS",
+    "steps": [
+      {
+        "step": 1,
+        "image": "WW-FNS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.3,
+            "yPercent": 38.5,
+            "width": 7.5,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Зайдите в \"Отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "WW-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.7,
+            "yPercent": 25.7,
+            "width": 9.8,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейдите в \"Регламентированные отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "WW-FNS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 48.6,
+            "yPercent": 10.1,
+            "width": 6.2,
+            "height": 2.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Входящие\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "WW-FNS-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.1,
+            "yPercent": 9.5,
+            "width": 5.7,
+            "height": 3.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Входящие требования отображаются на вкладке \"Требования и уведомления\". Для получения входящих сообщений нажмите \"Обновить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "WW-FNS-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 17.4,
+            "yPercent": 26.6,
+            "width": 30.0,
+            "height": 5.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для ознакомления с требованием откройте его",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "WW-FNS-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.1,
+            "yPercent": 36.7,
+            "width": 43.8,
+            "height": 2.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В требовании всегда присутствует приложенный файл с текстом требования. Откройте его",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "WW-FNS-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 83.8,
+            "yPercent": 20.6,
+            "width": 3.2,
+            "height": 4.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В документе будет полный текст требования. Теперь закройте документ",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "WW-FNS-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 91.7,
+            "yPercent": 22.7,
+            "width": 7.6,
+            "height": 2.0,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В требовании также указаны сроки, в которые необходимо подтвердить прием и подготовить ответ на требование. Для просмотра более детальной информации нажмите кнопку \"Подробнее о сроках\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "WW-FNS-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 69.3,
+            "yPercent": 12.7,
+            "width": 2.5,
+            "height": 4.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся окне можно ознакомится с подробным описанием сроков и статьями НК РФ. Закройте данное окно",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "WW-FNS-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.3,
+            "yPercent": 17.9,
+            "width": 8.2,
+            "height": 3.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для отправки подтверждения о приёме требования нажмите \"Подтвердить прием\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "WW-FNS-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 45.0,
+            "yPercent": 52.9,
+            "width": 9.1,
+            "height": 4.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся окне нажмите \"Подтвердить прием\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "WW-FNS-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 80.9,
+            "yPercent": 3.0,
+            "width": 1.7,
+            "height": 3.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После отправки подтверждения начинается отсчет срока отправки ответа на требование. Закройте окно с требованием",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "image": "WW-FNS-13.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.5,
+            "yPercent": 20.1,
+            "width": 4.8,
+            "height": 3.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Как вы можете видеть, статус требования также изменился, указано что \"Прием подтвержден\". Теперь подготовим ответ. Нажмите кнопку \"Ответить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "image": "WW-FNS-14.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 42.2,
+            "yPercent": 44.5,
+            "width": 10.9,
+            "height": 2.8,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В зависимости от требования возможны различные способы ответа. Рассмотрим отправку поясняющих документов.",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "image": "WW-FNS-15.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 29.5,
+            "width": 7.8,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Загрузить с диска\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 16,
+        "image": "WW-FNS-16.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.4,
+            "yPercent": 32.4,
+            "width": 14.0,
+            "height": 3.3,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее \"Сканированные документы\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 17,
+        "image": "WW-FNS-17.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 41.3,
+            "yPercent": 43.2,
+            "width": 4.9,
+            "height": 3.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Программа предложит выбрать документы из вашего компьютера. После выбора необходимо нажать кнопку \"Открыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 18,
+        "image": "WW-FNS-18.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 97.3,
+            "yPercent": 22.5,
+            "width": 2.3,
+            "height": 3.8,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После добавления документа он появится в списке. Теперь необходимо выбрать Вид документа и Признак. Откройте список \"Вид документа\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 19,
+        "image": "WW-FNS-19.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 20.5,
+            "yPercent": 25.7,
+            "width": 18.8,
+            "height": 2.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В списке необходимо выбрать тип документа, который вы приложили. Выберем \"Документы, подтверждающие хозяйственные операции\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 20,
+        "image": "WW-FNS-20.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 97.5,
+            "yPercent": 28.2,
+            "width": 1.8,
+            "height": 2.8,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь необходимо заполнить наименование/признак документа. Заполняется или вручную или выбором из списка. Раскройте список \"Наименование, реквизиты или иные признаки\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 21,
+        "image": "WW-FNS-21.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 38.1,
+            "yPercent": 32.7,
+            "width": 22.7,
+            "height": 4.0,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите \"Акт о расхождениях\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 22,
+        "image": "WW-FNS-22.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 9.2,
+            "width": 18.3,
+            "height": 3.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь нажмите кнопку \"Добавить в пакет с доп. документами для ФНС\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 23,
+        "image": "WW-FNS-23.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 9.8,
+            "yPercent": 9.1,
+            "width": 5.9,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Добавленный документ отобразился в списке. Для отправки нажмите кнопку \"Отправить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 24,
+        "image": "WW-FNS-24.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 54.5,
+            "yPercent": 53.0,
+            "width": 4.1,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для подтверждения отправки нажмите \"Да\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 25,
+        "image": "WW-FNS-25.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 46.2,
+            "yPercent": 51.4,
+            "width": 5.8,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ответ успешно отправлен, нажмите \"Закрыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 26,
+        "image": "WW-FNS-26.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 92.9,
+            "yPercent": 2.5,
+            "width": 2.3,
+            "height": 3.6,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Вернёмся в список входящих документов. Для этого закройте текущее окно",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 27,
+        "image": "WW-FNS-27.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 34.9,
+            "yPercent": 9.6,
+            "width": 5.2,
+            "height": 3.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В инофрмации о требовании теперь указано, что ответ отправлен. Все отправленные ответы отображаются в вкладке \"Письма\". Перейдите в неё",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 28,
+        "image": "WW-FNS-28.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 9.3,
+            "width": 5.9,
+            "height": 4.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Наш ответ находится в списк, в нем указано на какое требование он отправлен. Для статуса нажите \"Обноваить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 29,
+        "image": "WW-FNS-29.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 58.2,
+            "yPercent": 46.8,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Статус изменился на \"Принят\", это означает, что ответ успешно доставлен до ФНС! Нажмите \"Завершить\"",
+            "invisible": true,
+            "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "creatingMChD",
     "title": "Работа с МЧД",
     "name": "Создание и отправка МЧД",

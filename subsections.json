@@ -12,6 +12,10 @@
     "title": "Работа с ЭЛН по СЭДО СФР (бывший ФСС)"
   },
   {
+    "id": "workingWithFNS",
+    "title": "Работа с требованиями ФНС"
+  },
+  {
     "id": "workingWithMChD",
     "title": "Работа с МЧД",
     "subsections": [
