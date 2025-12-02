@@ -347,9 +347,295 @@
     "id": "workingWithELN",
     "title": "Работа с ЭЛН по СЭДО СФР (бывший ФСС)",
     "name": "Работа с ЭЛН по СЭДО СФР (бывший ФСС)",
-    "completeText": "",
+    "completeText": "Вы научились получать сообщения об изменениях ЭЛН, \nвходящие запросы ФСС для расчета пособий, \nа так же отправлять ответ на запрос ФСС",
     "scenarioCategory": "workingWithELN",
-    "steps": []
+    "steps": [
+      {
+        "step": 1,
+        "image": "WW-ELN-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 5.9,
+            "yPercent": 2.4,
+            "width": 5.2,
+            "height": 4.3,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте вкладку \"Кадры\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "WW-ELN-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 18.0,
+            "yPercent": 28.9,
+            "width": 12.6,
+            "height": 3.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейлите в \"Сообщения ФСС об изменении ЭЛН\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "WW-ELN-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 69.9,
+            "yPercent": 42.3,
+            "width": 5.4,
+            "height": 5.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В данном разделе будут отображаться все изменения по больничным листам ваших сотрудников. Для того, чтобы получить эту информацию необходимо нажать кнопку \"Получить из ФСС\". Как только больничный будет закрыт (перейдёт в состояние 030) ФСС направит запрос для расчета пособия.",
+            "invisible": true,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "WW-ELN-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 5.7,
+            "yPercent": 2.9,
+            "width": 5.5,
+            "height": 3.4,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": " Перейдите в вкладку \"Кадры\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "WW-ELN-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 17.7,
+            "yPercent": 35.9,
+            "width": 16.6,
+            "height": 3.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейдите в \"Входящие запросы ФСС для расчета пособий\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "WW-ELN-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.4,
+            "yPercent": 27.9,
+            "width": 17.2,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В данном разделе отображаются \"Входящие запросы ФСС\". Для выплат от ФФС на данный запрос требуется предоставить ответ. Нажимая на кнопку \"Получить из ФСС\", вы получаете все входящие запросы по вашим сотрудникам. Перейдем в один из запросов",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "WW-ELN-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 14.5,
+            "yPercent": 12.8,
+            "width": 9.4,
+            "height": 3.2,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В самом запросе уже есть некоторые данные о сотруднике. Чтобы ответить на запрос, требуется создать больничный, далее направить ответ. Нажмите кнопку \"Создать на основании\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "WW-ELN-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 15.5,
+            "yPercent": 15.4,
+            "width": 8.6,
+            "height": 2.9,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Больничный лист\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "WW-ELN-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 11.9,
+            "yPercent": 22.6,
+            "width": 8.5,
+            "height": 3.2,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В созданный больничный лист автоматически подтягиваются данные из вашей базы и из входящего запроса, но данные о самом больничном есть у ФСС. Для того, чтобы их получить, нажмите кнопку \"Получить из ФСС\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "WW-ELN-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.3,
+            "yPercent": 12.2,
+            "width": 9.1,
+            "height": 4.3,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После получения данных из ФСС и проверки заполнения, нажмите \"Провести и закрыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "WW-ELN-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 16.9,
+            "yPercent": 21.2,
+            "width": 14.3,
+            "height": 2.8,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь создайте \"Ответ на запрос ФСС для расчета пособий\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "WW-ELN-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 18.0,
+            "yPercent": 12.5,
+            "width": 8.6,
+            "height": 3.8,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В ответ автоматически подтянутся данные из запроса, ранее созданный больничный и данные из базы по сотруднику. Необходимо сверить все данные, далее нажать кнопку \"Отправить в Фонд\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "image": "WW-ELN-13.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.5,
+            "yPercent": 12.7,
+            "width": 9.2,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Если у вас сформированны несколько ответов, программа предложит отправить их все. Нажмите кнопку \"Отправить в Фонд\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "image": "WW-ELN-14.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 17.6,
+            "yPercent": 12.9,
+            "width": 12.9,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ответ успешно отправлен, статус его изменился на \"Отправлен в Фонд\". Обработка ответа со стороны ФСС может занимать некоторое время. Для получения результата обработки, нажмите кнопку \"Проверить наличие ответа ФСС\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "image": "WW-ELN-15.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 26.8,
+            "yPercent": 16.3,
+            "width": 8.9,
+            "height": 3.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ответ от ФСС получен, в данном случае он положительный, статус документа изменился на \"Успешно принят ФСС\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "creatingMChD",
