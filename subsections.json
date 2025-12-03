@@ -26,6 +26,10 @@
     ]
   },
   {
+    "id": "creatingAndSendingNDS",
+    "title": "Создание и отправка НДС"
+  },
+  {
     "id": "1cReportAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "subsections": [

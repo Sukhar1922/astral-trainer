@@ -2173,6 +2173,452 @@
     ]
   },
   {
+    "id": "creatingAndSendingNDS",
+    "title": "Создание и отправка НДС",
+    "name": "Создание и отправка НДС",
+    "completeText": "Вы научились создавать, проверять и отправлять отчет!",
+    "scenarioCategory": "creatingAndSendingNDS",
+    "steps": [
+      {
+        "step": 1,
+        "image": "NDS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.1,
+            "yPercent": 38.3,
+            "width": 8.8,
+            "height": 3.3,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Зайдите в \"Отчеты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "NDS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.8,
+            "yPercent": 21.0,
+            "width": 9.8,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь перейдите в \"Регламентированные отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "NDS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 16.6,
+            "width": 4.5,
+            "height": 3.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Создать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "NDS-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 21.9,
+            "yPercent": 33.2,
+            "width": 4.7,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Все\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "NDS-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 15.7,
+            "yPercent": 42.6,
+            "width": 1.9,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Раскройте \"ФНС\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "NDS-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 18.0,
+            "yPercent": 42.9,
+            "width": 8.6,
+            "height": 2.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Декларация по НДС\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "NDS-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 14.9,
+            "yPercent": 29.5,
+            "width": 5.1,
+            "height": 4.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 8,
+        "image": "NDS-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 37.7,
+            "yPercent": 40.2,
+            "width": 5.1,
+            "height": 4.2,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После выбора периода нажмите кнопку \"Создать\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 9,
+        "image": "NDS-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.2,
+            "yPercent": 18.9,
+            "width": 10.0,
+            "height": 3.4,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Отчет успешно создан. Теперь его требуется заполнить и проверить. Попробуйте перейти в \"Раздел 1\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 10,
+        "image": "NDS-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.1,
+            "yPercent": 16.3,
+            "width": 10.1,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Необходимо заполнить отчет, переходя по разделам. Давайте перейдём к проверке отчета. Вернёмся на \"Титульный лист\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 11,
+        "image": "NDS-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.4,
+            "yPercent": 9.1,
+            "width": 5.4,
+            "height": 4.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Проверка\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 12,
+        "image": "NDS-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 29.5,
+            "yPercent": 12.4,
+            "width": 12.6,
+            "height": 2.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Проверка контрольных соотношений\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 13,
+        "image": "NDS-13.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 59.1,
+            "yPercent": 52.9,
+            "width": 4.1,
+            "height": 3.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ура! В нашем отчёте ошибок по показателям не обнаружено. Поэтому выводить их не требуется, нажмите \"Нет\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 14,
+        "image": "NDS-14.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 28.9,
+            "yPercent": 20.7,
+            "width": 9.3,
+            "height": 3.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь выберите пункт \"Проверить в интернете\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 15,
+        "image": "NDS-15.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 43.2,
+            "yPercent": 50.1,
+            "width": 2.7,
+            "height": 3.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ошибок с XSD формой отчета также не обнаружено! Нажмите \"ОК\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 16,
+        "image": "NDS-16.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 36.8,
+            "yPercent": 9.4,
+            "width": 5.1,
+            "height": 3.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Пришло время отправить отчет. Нажмите кнопку \"Отправить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 17,
+        "image": "NDS-17.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 29.7,
+            "yPercent": 40.6,
+            "width": 1.4,
+            "height": 2.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перед отправкой всегда выходит окно с подтверждением правильности заполнения отчёта. Чтобы отправить отчёт, нужно проставить галочку \"Подтверждаю\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 18,
+        "image": "NDS-18.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 40.7,
+            "yPercent": 44.3,
+            "width": 5.4,
+            "height": 3.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь нажмите \"Отправить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 19,
+        "image": "NDS-19.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 88.6,
+            "yPercent": 13.2,
+            "width": 4.8,
+            "height": 3.0,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ответ успешно отправлен! Чтобы получить результат, нажмите \"Обновить\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 20,
+        "image": "NDS-20.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 46.3,
+            "yPercent": 51.8,
+            "width": 5.5,
+            "height": 2.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Поступило извещение о вводе. Это означает, что отчет сдан! Нажмите кнопку \"Закрыть\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 21,
+        "image": "NDS-21.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 13.9,
+            "yPercent": 13.2,
+            "width": 7.2,
+            "height": 2.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Извещение о вводе\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 22,
+        "image": "NDS-22.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 54.2,
+            "yPercent": 2.9,
+            "width": 1.9,
+            "height": 2.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Результат можно распечатать или сохранить. Закройте окно с результатом",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 23,
+        "image": "NDS-23.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 57.7,
+            "yPercent": 69.0,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В списке отчетов статус отчета поменялся. Указано, что он сдан! Нажмите кнопку \"Завершить\"",
+            "invisible": true,
+            "mascotPosition": "right"
+          } 
+        ]
+      }
+    ]
+  },
+  {
     "id": "loginToAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "name": "Вход в личный кабинет",
@@ -2185,16 +2631,16 @@
         "hotspots": 
         [
           {
-          "xPercent": 21.2,
-          "yPercent": 58.3,
-          "width": 24.4,
-          "height": 8.9,
-          "tooltipPosition": "bottom",
-          "tooltipAlign": "center",
-          "tooltipTitle": "",
-          "tooltipText": "Первый вариант входа по email. Нажмите «Войти в другой аккаунт»",
-          "invisible": false,
-          "mascotPosition": "left"
+            "xPercent": 21.2,
+            "yPercent": 58.3,
+            "width": 24.4,
+            "height": 8.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Первый вариант входа по email. Нажмите «Войти в другой аккаунт»",
+            "invisible": false,
+            "mascotPosition": "left"
           } 
         ]
       },
