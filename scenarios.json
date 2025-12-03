@@ -2619,6 +2619,224 @@
     ]
   },
   {
+    "id": "editingReports",
+    "title": "Ручное редактирование отчетов",
+    "name": "Ручное редактирование отчетов",
+    "completeText": "Вы научились редактировать отчет вручную!",
+    "scenarioCategory": "editingReports",
+    "steps": [
+      {
+        "step": 1,
+        "image": "ER-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 17.2,
+            "width": 4.7,
+            "height": 3.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сначала создадим отчет. Нажмите кнопку \"Создать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "ER-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 30.7,
+            "yPercent": 67.8,
+            "width": 11.1,
+            "height": 3.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выделите отчёт \"Расчет по страховым взносам\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "ER-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 30.1,
+            "yPercent": 33.5,
+            "width": 5.1,
+            "height": 3.5,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "ER-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 37.8,
+            "yPercent": 34.5,
+            "width": 5.0,
+            "height": 4.3,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для создания отчёта, нажмите \"Создать\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "ER-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 11.4,
+            "yPercent": 22.5,
+            "width": 8.5,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейдём в \"Подраздел 1 Раздела 1\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "ER-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 93.5,
+            "yPercent": 9.3,
+            "width": 3.6,
+            "height": 3.6,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "По умолчанию часть ячеек в отчёте заполняются автоматически и не редактируются вручную. Если требуется ручное редактирование, то можно перейти в настройки и включить эту возможность. Надмите \"Ещё\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "ER-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 86.6,
+            "yPercent": 47.4,
+            "width": 13.6,
+            "height": 4.2,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите пункт \"Настройки\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 8,
+        "image": "ER-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 33.8,
+            "yPercent": 46.3,
+            "width": 1.5,
+            "height": 2.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Проставте галку напротив пункта \"Отключить автоматический расчет вычисляемых ячеек\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 9,
+        "image": "ER-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 54.2,
+            "yPercent": 61.5,
+            "width": 5.8,
+            "height": 3.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 10,
+        "image": "ER-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 41.7,
+            "yPercent": 73.1,
+            "width": 5.5,
+            "height": 2.6,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь ранее недоступные для редактирования ячейки доступны. Выделите ячейку в строке \"База для исчисления страховых взносов\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 11,
+        "image": "ER-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 65.2,
+            "yPercent": 50.0,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Ячейка доступна для редактирования! Это возможность доступна во всех отчётах.",
+            "invisible": true,
+            "mascotPosition": "right"
+          } 
+        ]
+      }
+    ]
+  },
+  {
     "id": "loginToAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "name": "Вход в личный кабинет",

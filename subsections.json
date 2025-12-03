@@ -30,6 +30,10 @@
     "title": "Создание и отправка НДС"
   },
   {
+    "id": "editingReports",
+    "title": "Ручное редактирование отчетов"
+  },
+  {
     "id": "1cReportAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "subsections": [
