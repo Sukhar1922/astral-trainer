@@ -2837,6 +2837,153 @@
     ]
   },
   {
+    "id": "CryptoProCSP",
+    "title": "Установка сертификата КриптоПро CSP",
+    "name": "Установка сертификата КриптоПро CSP",
+    "completeText": "Вы научились устанавливать сертификат \nэлектронной подписи в систему компьютера!",
+    "scenarioCategory": "CryptoProCSP",
+    "steps": [
+      {
+        "step": 1,
+        "image": "CSP-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 28.0,
+            "yPercent": 45.3,
+            "width": 65.7,
+            "height": 5.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В программе КриптоПро CSP нажмите на кнопку \"Просмотреть сертификаты в контейнере\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "CSP-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 75.6,
+            "yPercent": 44.7,
+            "width": 23.0,
+            "height": 7.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее кнопка \"Обзор\", чтобы открыть список контейнеров, доступных на вашем компьютере",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "CSP-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 54.0,
+            "yPercent": 92.0,
+            "width": 19.8,
+            "height": 7.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся окне в списке необходимо выбрать контейнер электронной подписи и нажать \"ОК\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "CSP-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 63.2,
+            "yPercent": 66.9,
+            "width": 17.5,
+            "height": 7.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В этом окне нажмите кнопку \"Установить\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "CSP-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 75.7,
+            "yPercent": 76.0,
+            "width": 20.5,
+            "height": 16.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сертификат успешно установлен в систему компьютера. Нажмите \"ОК\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "CSP-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 65.5,
+            "yPercent": 91.2,
+            "width": 16.0,
+            "height": 7.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Готово\" для закрытия окна с информацией о сертификате",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "CSP-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.8,
+            "yPercent": 66.9,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "На этом установка сертификата завершина, теперь его можно использовать в сервисе 1С-Отчетность",
+            "invisible": true,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          } 
+        ]
+      }
+    ]
+  },
+  {
     "id": "loginToAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "name": "Вход в личный кабинет",
