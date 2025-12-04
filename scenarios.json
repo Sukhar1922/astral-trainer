@@ -2984,6 +2984,376 @@
     ]
   },
   {
+    "id": "dumpingDB",
+    "title": "Перенос Базы 1С",
+    "name": "Перенос Базы 1С",
+    "completeText": "Вы научились переносить базу и сервис 1СО на \nдругой компьютер",
+    "scenarioCategory": "dumpingDB",
+    "steps": [
+      {
+        "step": 1,
+        "image": "DDB-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 74.1,
+            "yPercent": 11.9,
+            "width": 25.5,
+            "height": 3.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте \"Конфигуратор\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "DDB-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 12.4,
+            "yPercent": 2.1,
+            "width": 6.3,
+            "height": 2.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Вкладка \"Администрирование\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 3,
+        "image": "DDB-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 13.7,
+            "yPercent": 12.7,
+            "width": 10.8,
+            "height": 2.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Пункт \"Выгрузить информационную базу\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 4,
+        "image": "DDB-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 46.0,
+            "yPercent": 64.3,
+            "width": 5.6,
+            "height": 3.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выбрав место сохранения файла, нажмите \"Сохранить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 5,
+        "image": "DDB-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 47.4,
+            "yPercent": 51.7,
+            "width": 5.2,
+            "height": 2.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для завершения выгрузки, нажмите \"ОК\". Далее выгруженный файл требуется переместить на другой компьютер",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 6,
+        "image": "DDB-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 74.5,
+            "yPercent": 20.3,
+            "width": 24.6,
+            "height": 3.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После переноса выгруженного файла, на новом компьютере запустите 1С и нажмите \"Добавить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 7,
+        "image": "DDB-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 57.2,
+            "yPercent": 73.3,
+            "width": 15.1,
+            "height": 4.5,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нам требуется создание новой информационной базы, нажимаем \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 8,
+        "image": "DDB-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 13.3,
+            "yPercent": 62.9,
+            "width": 4.9,
+            "height": 3.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее необходимо выбрать \"Создание информационной базы без конфигурации...\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 9,
+        "image": "DDB-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 57.2,
+            "yPercent": 73.5,
+            "width": 14.8,
+            "height": 3.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После выбора нажимаем \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 10,
+        "image": "DDB-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 57.2,
+            "yPercent": 73.5,
+            "width": 14.8,
+            "height": 3.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "На этом этапе можно задать имя базы и нажимаем \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 11,
+        "image": "DDB-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 57.2,
+            "yPercent": 73.5,
+            "width": 14.8,
+            "height": 3.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте \"Конфигуратор\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 12,
+        "image": "DDB-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 57.2,
+            "yPercent": 73.5,
+            "width": 14.8,
+            "height": 3.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "На последнем этапе нажмите \"Готово\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 13,
+        "image": "DDB-13.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 74.5,
+            "yPercent": 11.5,
+            "width": 25.3,
+            "height": 4.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В списке появилась созданная нами база, перейдите в \"Конфигуратор\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 14,
+        "image": "DDB-14.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 12.3,
+            "yPercent": 2.1,
+            "width": 6.4,
+            "height": 2.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Вкладка \"Администрирование\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 15,
+        "image": "DDB-15.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 13.5,
+            "yPercent": 15.0,
+            "width": 10.8,
+            "height": 2.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Пункт \"Загрузить информационную базу\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 16,
+        "image": "DDB-16.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 11.2,
+            "yPercent": 13.8,
+            "width": 14.3,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите выгруженный файл",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 17,
+        "image": "DDB-17.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 46.4,
+            "yPercent": 64.7,
+            "width": 5.2,
+            "height": 3.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Открыть\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 18,
+        "image": "DDB-18.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 44.6,
+            "yPercent": 51.8,
+            "width": 5.4,
+            "height": 3.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Необходимо согласится с загрузкой базы, нажмите \"Да\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 19,
+        "image": "DDB-19.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 44.6,
+            "yPercent": 51.8,
+            "width": 5.4,
+            "height": 3.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После загрузки базы, необходимо перезапустить конфигуратор, нажмите \"Да\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      }
+    ]
+  },
+  {
     "id": "loginToAccount",
     "title": "Личный кабинет 1С-Отчетность",
     "name": "Вход в личный кабинет",
