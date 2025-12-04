@@ -66,5 +66,9 @@
       {"title": "Отключение многопользовательского режима", "id": "disablingMultiUserMode"},
       {"title": "Изменение многопользовательского режима", "id": "changingMultiUserMode"}
     ]
+  },
+  {
+    "id": "reissueOfCertificate",
+    "title": "Дистанционный перевыпуск сертификата"
   }
 ]

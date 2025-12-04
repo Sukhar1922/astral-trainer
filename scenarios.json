@@ -6635,6 +6635,180 @@
         ]
       }
     ]
+  },
+  {
+    "id": "reissueOfCertificate",
+    "title": "Дистанционный перевыпуск сертификата",
+    "name": "Дистанционный перевыпуск сертификата",
+    "completeText": "Вы научились дистанционно перевыпускать \nсертификат руководителя через 1С-Отчетность!",
+    "scenarioCategory": "reissueOfCertificate",
+    "steps": [
+      {
+        "step": 1,
+        "image": "ROC-1.png",
+        "hotspots": [
+          {
+            "xPercent": 0.0,
+            "yPercent": 38.5,
+            "width": 6.5,
+            "height": 2.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "--||--||-- продление сформируйте заявление на изменение настроек подключения к 1С-Отчетности. Для этого откройте раздел \"Отчёты\" (шаг 1)",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "ROC-2.png",
+        "hotspots": [
+          {
+            "xPercent": 27.7,
+            "yPercent": 47.8,
+            "width": 9.8,
+            "height": 3.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте раздел \"Регламентированные отчёты\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "ROC-3.png",
+        "hotspots": [
+          {
+            "xPercent": 66.2,
+            "yPercent": 9.5,
+            "width": 4.7,
+            "height": 4.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Откройте \"Настройки\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "ROC-4.png",
+        "hotspots": [
+          {
+            "xPercent": 30.6,
+            "yPercent": 18.1,
+            "width": 22.1,
+            "height": 2.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Заявление на продление 1С-Отчетности или изменение реквизитов\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "ROC-5.png",
+        "hotspots": [
+          {
+            "xPercent": 89.6,
+            "yPercent": 96.3,
+            "width": 4.6,
+            "height": 3.4,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "!(Сам додумал) Нажмите кнопку \"Далее\" (шаг 5)",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "ROC-6.png",
+        "hotspots": [
+          {
+            "xPercent": 9.3,
+            "yPercent": 58.7,
+            "width": 41.1,
+            "height": 6.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В поле \"Получить сертификат эл. подписи:\" установите чекбокс \"Удалено (платно)\". Ниже установите чекбокс \"Осознаю, что если я не отправлю расписку о получнии нового сертификата в течение 72-х часов после одобрения заявления, то новый и текущий сертификаты будут отозваны УЦ АО \"Аналитический центр\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "ROC-7.png",
+        "hotspots": [
+          {
+            "xPercent": 89.4,
+            "yPercent": 95.7,
+            "width": 5.0,
+            "height": 4.0,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Чекбокс установлен. Нажмите кнопку \"Далее\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "ROC-8.png",
+        "hotspots": [
+          {
+            "xPercent": 84.0,
+            "yPercent": 96.0,
+            "width": 10.2,
+            "height": 3.6,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите кнопку \"Подписать и отправить\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "ROC-9.png",
+        "hotspots": [
+          {
+            "xPercent": 38.4,
+            "yPercent": 56.6,
+            "width": 20.6,
+            "height": 4.5,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "На следующем шаге нажмите кнопку \"Создать закрытый ключ и подписать завление\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      }
+    ]
   }
 ]
 
