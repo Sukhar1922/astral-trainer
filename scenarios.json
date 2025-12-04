@@ -6809,6 +6809,51 @@
         ]
       }
     ]
+  },
+  {
+    "id": "promoENS",
+    "title": "Подключение промо ЕНС",
+    "name": "Подключение промо ЕНС",
+    "completeText": "",
+    "scenarioCategory": "promoENS",
+    "steps": [
+      {
+        "step": 1,
+        "image": "Promo-1.png",
+        "hotspots": [
+          {
+            "xPercent": 67.7,
+            "yPercent": 20.4,
+            "width": 7.3,
+            "height": 4.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Сразу после создания уведомления, если организация не подключена к сервису 1С-Отчетность, в верхней части появится информационное сообщение. Нажмите кнопку \"Подробнее\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "Promo-2.png",
+        "hotspots": [
+          {
+            "xPercent": 45.6,
+            "yPercent": 72.0,
+            "width": 13.8,
+            "height": 6.3,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся информационном окне нажмите кнопку \"Отправить заявление\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      }
+    ]
   }
 ]
 
