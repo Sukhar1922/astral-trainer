@@ -458,7 +458,7 @@
             "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "В данном разделе отображаются \"Входящие запросы ФСС\". Для выплат от ФФС на данный запрос требуется предоставить ответ. Нажимая на кнопку \"Получить из ФСС\", вы получаете все входящие запросы по вашим сотрудникам. Перейдем в один из запросов",
+            "tooltipText": "В данном разделе отображаются \"Входящие запросы ФСС\". Для выплат от ФСС на данный запрос требуется предоставить ответ. Нажимая на кнопку \"Получить из ФСС\", вы получаете все входящие запросы по вашим сотрудникам. Перейдем в один из запросов",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -3193,7 +3193,7 @@
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "Откройте \"Конфигуратор\"",
+            "tooltipText": "Нажмите кнопку \"Далее\"",
             "invisible": false,
             "mascotPosition": "right"
           } 
@@ -6720,22 +6720,39 @@
         "image": "ROC-5.png",
         "hotspots": [
           {
-            "xPercent": 89.6,
-            "yPercent": 96.3,
-            "width": 4.6,
-            "height": 3.4,
-            "tooltipPosition": "top",
+            "xPercent": 9.6,
+            "yPercent": 31.3,
+            "width": 9.8,
+            "height": 3.1,
+            "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Нажмите кнопку \"Далее\" (шаг 5)",
+            "tooltipText": "Установим галку \"Сертификат эл. подписи\"",
             "invisible": false,
-            "mascotPosition": "left",
-            "verticalOffset": "-15%"
+            "mascotPosition": "right"
           }
         ]
       },
       {
         "step": 6,
+        "image": "ROC-6.png",
+        "hotspots": [
+          {
+            "xPercent": 21.8,
+            "yPercent": 33.0,
+            "width": 7.9,
+            "height": 4.2,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В поле \"Получить сертификат эл. подписи:\" установите чекбокс \"Удалено (платно)\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 7,
         "image": "ROC-6.png",
         "hotspots": [
           {
@@ -6746,14 +6763,14 @@
             "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "В поле \"Получить сертификат эл. подписи:\" установите чекбокс \"Удалено (платно)\". Ниже установите чекбокс \"Осознаю, что если я не отправлю расписку о получнии нового сертификата в течение 72-х часов после одобрения заявления, то новый и текущий сертификаты будут отозваны УЦ АО \"Аналитический центр\"",
+            "tooltipText": "Ниже установите чекбокс \"Осознаю, что если я не отправлю расписку о получнии нового сертификата в течение 72-х часов после одобрения заявления, то новый и текущий сертификаты будут отозваны УЦ АО \"Аналитический центр\"",
             "invisible": false,
             "mascotPosition": "right"
           }
         ]
       },
       {
-        "step": 7,
+        "step": 8,
         "image": "ROC-7.png",
         "hotspots": [
           {
@@ -6772,7 +6789,7 @@
         ]
       },
       {
-        "step": 8,
+        "step": 9,
         "image": "ROC-8.png",
         "hotspots": [
           {
@@ -6791,7 +6808,7 @@
         ]
       },
       {
-        "step": 9,
+        "step": 10,
         "image": "ROC-9.png",
         "hotspots": [
           {
@@ -6805,6 +6822,25 @@
             "tooltipText": "На следующем шаге нажмите кнопку \"Создать закрытый ключ и подписать завление\"",
             "invisible": false,
             "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "ROC-10.png",
+        "hotspots": [
+          {
+            "xPercent": 39.2,
+            "yPercent": 86.0,
+            "width": 33.3,
+            "height": 13.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После того как заявление будет одобрено, необходимо подписать расписку о получении нового сертификата. Для этого в открывшемся окне нажмите кнопку \"Подписать и отправить расписку\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
           }
         ]
       }
