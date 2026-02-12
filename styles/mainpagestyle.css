@@ -74,7 +74,8 @@ body {
 .header-bottom-text {
   color: #072D57;
   font-family: "Montserrat", sans-serif;
-  font-size: calc(12px + (24 - 16) * ((100vw - 375px) / (1440 - 375)));
+  /* font-size: calc(12px + (24 - 16) * ((100vw - 375px) / (1440 - 375))); */
+  font-size: 20px;
   line-height: var(--web-header-h5-16-medium-line-height, 20px);
   font-weight: bold;
 }
@@ -112,7 +113,7 @@ body {
   width: 100%;
   padding: 15px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   background-color: transparent;
   border: none;
@@ -144,7 +145,7 @@ body {
       width: 100%;
       padding: 15px 0;
       font-family: "Montserrat", sans-serif;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 400;
       background-color: transparent;
       border: none;
@@ -193,7 +194,8 @@ body {
   }
   
   .header-bottom-text {
-    font-size: calc(10px + (16 - 10) * ((100vw - 375px) / (768 - 375)));
+    /* font-size: calc(10px + (16 - 10) * ((100vw - 375px) / (768 - 375))); */
+    font-size: 20px;
   }
   .card img {
     max-width: 80%;
