@@ -639,7 +639,7 @@
   },
   {
     "id": "gettingFNS",
-    "title": "Получение требований и уведомлений ФНС",
+    "title": "Работа с требованиями ФНС",
     "name": "Получение требований и уведомлений ФНС",
     "completeText": "Вы теперь знаете, где найти требования ФНС",
     "scenarioCategory": "gettingFNS",
@@ -755,6 +755,212 @@
             "tooltipText": "При необходимости требование можно перенести на закладку Входящие письма. Для это нажмите на требование правой кнопкой мыши и во всплывшем окне выберите команду \"Перенести во Входящие письма\"",
             "invisible": false,
             "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "confirmationFNS",
+    "title": "Работа с требованиями ФНС",
+    "name": "Подтверждение приема требования",
+    "completeText": "Вы ознакомились с информацией, \nпо приёму требований ФНС",
+    "scenarioCategory": "confirmationFNS",
+    "steps": [
+      {
+        "step": 1,
+        "image": "C-FNS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.3,
+            "yPercent": 28.0,
+            "width": 22.9,
+            "height": 9.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "С 5 февраля 2025 года необходимость отправки квитанции зависимости от того, обязателен ли для организации электронный документооборот с ФНС",
+            "invisible": true,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "C-FNS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.3,
+            "yPercent": 28.0,
+            "width": 22.9,
+            "height": 9.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Укажите, обязателен ли электронный документооборот в вашей организации",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "C-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 15.9,
+            "yPercent": 78.9,
+            "width": 4.7,
+            "height": 6.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Если документооборот обязателен, то откроется следующее окно. Поставьте флажок, чтобы программа запомнила выбор для других требований",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "C-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 43.3,
+            "yPercent": 86.7,
+            "width": 12.6,
+            "height": 8.5,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"ОК\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "C-FNS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 45.5,
+            "yPercent": 76.1,
+            "width": 2.0,
+            "height": 3.7,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После нажатия кнопки \"ОК\" на панели отобразится информация о том, что подтверждение приема не требуется",
+            "invisible": true,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "C-FNS-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 15.0,
+            "yPercent": 74.9,
+            "width": 3.0,
+            "height": 6.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Если документооборот не обязателен, то откроется следующее окно. Поставьте флажок, чтобы программа запомнила выбор для других требований",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "C-FNS-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 32.5,
+            "yPercent": 82.7,
+            "width": 7.9,
+            "height": 7.3,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"ОК\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-130%"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "C-FNS-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 17.7,
+            "yPercent": 48.3,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После нажатия кнопки \"ОК\" на панели отобразится информация о том, что необходимо подтвердить прием и соответствующая кнопка. На панели \"Сроки отправки\" в строке \"Подтверждение приема\" будет отображаться срок для подтверждения",
+            "invisible": true,
+            "mascotPosition": "right",
+            "verticalOffset": "15%"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "C-FNS-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.7,
+            "yPercent": 28.7,
+            "width": 15.0,
+            "height": 7.6,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмём на \"Подтвердить прием\"",
+            "invisible": false,
+            "mascotPosition": "right",
+            "verticalOffset": "15%"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "C-FNS-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 50.4,
+            "yPercent": 51.5,
+            "width": 46.2,
+            "height": 6.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Теперь нужно в течение пяти дней отправить ответ на требование",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "15%"
           }
         ]
       }
