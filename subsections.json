@@ -13,7 +13,10 @@
   },
   {
     "id": "workingWithFNS",
-    "title": "Работа с требованиями ФНС"
+    "title": "Работа с требованиями ФНС",
+    "subsections": [
+      {"title": "Получение требований и уведомлений ФНС", "id": "gettingFNS"}
+    ]
   },
   {
     "id": "workingWithMChD",

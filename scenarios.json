@@ -638,26 +638,26 @@
     ]
   },
   {
-    "id": "workingWithFNS",
-    "title": "Работа с требованиями ФНС",
-    "name": "Работа с требованиями ФНС",
-    "completeText": "Вы научились работать с требованиями и \nотправлять ответ на них!",
-    "scenarioCategory": "workingWithFNS",
+    "id": "gettingFNS",
+    "title": "Получение требований и уведомлений ФНС",
+    "name": "Получение требований и уведомлений ФНС",
+    "completeText": "Вы теперь знаете, где найти требования ФНС",
+    "scenarioCategory": "gettingFNS",
     "steps": [
       {
         "step": 1,
-        "image": "WW-FNS-1.png",
+        "image": "G-FNS-1.png",
         "hotspots": 
         [
           {
-            "xPercent": 0.3,
-            "yPercent": 38.5,
-            "width": 7.5,
-            "height": 3.1,
+            "xPercent": 27.6,
+            "yPercent": 47.7,
+            "width": 10.0,
+            "height": 2.7,
             "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "Зайдите в \"Отчёты\"",
+            "tooltipText": "Перейдя на страницу \"Отчёты\", перейдите в \"Регламентированные отчёты\" ",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -665,33 +665,14 @@
       },
       {
         "step": 2,
-        "image": "WW-FNS-2.png",
+        "image": "G-FNS-2.png",
         "hotspots": 
         [
           {
-            "xPercent": 27.7,
-            "yPercent": 25.7,
-            "width": 9.8,
-            "height": 3.1,
-            "tooltipPosition": "right",
-            "tooltipAlign": "center",
-            "tooltipTitle": "",
-            "tooltipText": "Теперь перейдите в \"Регламентированные отчёты\"",
-            "invisible": false,
-            "mascotPosition": "right"
-          }
-        ]
-      },
-      {
-        "step": 3,
-        "image": "WW-FNS-3.png",
-        "hotspots": 
-        [
-          {
-            "xPercent": 48.6,
-            "yPercent": 10.1,
-            "width": 6.2,
-            "height": 2.6,
+            "xPercent": 45.3,
+            "yPercent": 9.9,
+            "width": 5.5,
+            "height": 3.2,
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
@@ -702,19 +683,38 @@
         ]
       },
       {
-        "step": 4,
-        "image": "WW-FNS-4.png",
+        "step": 3,
+        "image": "G-FNS-2.png",
         "hotspots": 
         [
           {
-            "xPercent": 10.1,
-            "yPercent": 9.5,
-            "width": 5.7,
-            "height": 3.9,
+            "xPercent": 10.0,
+            "yPercent": 12.8,
+            "width": 11.3,
+            "height": 4.1,
             "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "Входящие требования отображаются на вкладке \"Требования и уведомления\". Для получения входящих сообщений нажмите \"Обновить\"",
+            "tooltipText": "Входящие требования отображаются на вкладке \"Требования и уведомления\". Перейдём на неё",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "G-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.3,
+            "yPercent": 16.2,
+            "width": 51.5,
+            "height": 4.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Используя фильтры, можно отобрать документы по организациям, периодам, по видам документов от ФНС и по состояниям (требуют подтверждения, требуют ответа и т.д.)",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -722,18 +722,18 @@
       },
       {
         "step": 5,
-        "image": "WW-FNS-5.png",
+        "image": "G-FNS-2.png",
         "hotspots": 
         [
           {
-            "xPercent": 17.4,
-            "yPercent": 26.6,
-            "width": 30.0,
-            "height": 5.6,
-            "tooltipPosition": "bottom",
+            "xPercent": 37.0,
+            "yPercent": 21.6,
+            "width": 33.1,
+            "height": 70.5,
+            "tooltipPosition": "left",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "Для ознакомления с требованием откройте его",
+            "tooltipText": "В списке требований и уведомлений статусы документов, которые требуют реакции пользователя (например, Подтвердите прием или Отправьте ответ), выделяются красным цветом. Под статусами указываются крайние сроки подтверждений или ответов. Документы с просроченным сроком подтверждения и ответа помечаются значком огня",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -741,18 +741,141 @@
       },
       {
         "step": 6,
-        "image": "WW-FNS-6.png",
+        "image": "G-FNS-3.png",
         "hotspots": 
         [
           {
-            "xPercent": 10.1,
-            "yPercent": 36.7,
-            "width": 43.8,
-            "height": 2.1,
+            "xPercent": 22.0,
+            "yPercent": 40.9,
+            "width": 26.6,
+            "height": 3.8,
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "В требовании всегда присутствует приложенный файл с текстом требования. Откройте его",
+            "tooltipText": "При необходимости требование можно перенести на закладку Входящие письма. Для это нажмите на требование правой кнопкой мыши и во всплывшем окне выберите команду \"Перенести во Входящие письма\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "workingWithFNS-CUT",
+    "title": "Работа с требованиями ФНС",
+    "name": "Работа с требованиями ФНС",
+    "completeText": "Вы научились работать с требованиями и \nотправлять ответ на них!",
+    "scenarioCategory": "workingWithFNS-CUT",
+    "steps": [
+      {
+        "step": 1,
+        "image": "Re-WW-FNS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 27.6,
+            "yPercent": 47.7,
+            "width": 10.0,
+            "height": 2.7,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейдя на страницу \"Отчёты\", перейдите в \"Регламентированные отчёты\" ",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "Re-WW-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 45.3,
+            "yPercent": 9.9,
+            "width": 5.5,
+            "height": 3.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Входящие\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "Re-WW-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.0,
+            "yPercent": 12.8,
+            "width": 11.3,
+            "height": 4.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Входящие требования отображаются на вкладке \"Требования и уведомления\". Перейдём на неё",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "Re-WW-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 10.3,
+            "yPercent": 16.2,
+            "width": 51.5,
+            "height": 4.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Используя фильтры, можно отобрать документы по организациям, периодам, по видам документов от ФНС и по состояниям (требуют подтверждения, требуют ответа и т.д.)",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "Re-WW-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 37.0,
+            "yPercent": 21.6,
+            "width": 33.1,
+            "height": 70.5,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В списке требований и уведомлений статусы документов, которые требуют реакции пользователя (например, Подтвердите прием или Отправьте ответ), выделяются красным цветом. Под статусами указываются крайние сроки подтверждений или ответов. Документы с просроченным сроком подтверждения и ответа помечаются значком огня",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "Re-WW-FNS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 22.0,
+            "yPercent": 40.9,
+            "width": 26.6,
+            "height": 3.8,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "При необходимости требование можно перенести на закладку Входящие письма. Для это нажмите на требование правой кнопкой мыши и во всплывшем окне выберите команду \"Перенести во Входящие письма\"",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -2185,6 +2308,25 @@
         "hotspots": 
         [
           {
+            "xPercent": 40.4,
+            "yPercent": 43.4,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перед созданием отчета должны быть сформированы данные книг покупок, книг продаж, журналов учета полученных и выставленных счетов-фактур",
+            "invisible": true,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 2,
+        "image": "NDS-1.png",
+        "hotspots": 
+        [
+          {
             "xPercent": 0.1,
             "yPercent": 38.3,
             "width": 8.8,
@@ -2199,7 +2341,7 @@
         ]
       },
       {
-        "step": 2,
+        "step": 3,
         "image": "NDS-2.png",
         "hotspots": 
         [
@@ -2218,7 +2360,7 @@
         ]
       },
       {
-        "step": 3,
+        "step": 4,
         "image": "NDS-3.png",
         "hotspots": 
         [
@@ -2237,7 +2379,7 @@
         ]
       },
       {
-        "step": 4,
+        "step": 5,
         "image": "NDS-4.png",
         "hotspots": 
         [
@@ -2256,7 +2398,7 @@
         ]
       },
       {
-        "step": 5,
+        "step": 6,
         "image": "NDS-5.png",
         "hotspots": 
         [
@@ -2275,7 +2417,7 @@
         ]
       },
       {
-        "step": 6,
+        "step": 7,
         "image": "NDS-6.png",
         "hotspots": 
         [
@@ -2294,7 +2436,7 @@
         ]
       },
       {
-        "step": 7,
+        "step": 8,
         "image": "NDS-7.png",
         "hotspots": 
         [
@@ -2313,7 +2455,7 @@
         ]
       },
       {
-        "step": 8,
+        "step": 9,
         "image": "NDS-8.png",
         "hotspots": 
         [
@@ -2332,7 +2474,7 @@
         ]
       },
       {
-        "step": 9,
+        "step": 10,
         "image": "NDS-9.png",
         "hotspots": 
         [
@@ -2351,7 +2493,7 @@
         ]
       },
       {
-        "step": 10,
+        "step": 11,
         "image": "NDS-10.png",
         "hotspots": 
         [
@@ -2370,7 +2512,7 @@
         ]
       },
       {
-        "step": 11,
+        "step": 12,
         "image": "NDS-11.png",
         "hotspots": 
         [
@@ -2389,7 +2531,7 @@
         ]
       },
       {
-        "step": 12,
+        "step": 13,
         "image": "NDS-12.png",
         "hotspots": 
         [
@@ -2408,7 +2550,7 @@
         ]
       },
       {
-        "step": 13,
+        "step": 14,
         "image": "NDS-13.png",
         "hotspots": 
         [
@@ -2427,7 +2569,7 @@
         ]
       },
       {
-        "step": 14,
+        "step": 15,
         "image": "NDS-14.png",
         "hotspots": 
         [
@@ -2446,7 +2588,7 @@
         ]
       },
       {
-        "step": 15,
+        "step": 16,
         "image": "NDS-15.png",
         "hotspots": 
         [
@@ -2465,7 +2607,7 @@
         ]
       },
       {
-        "step": 16,
+        "step": 17,
         "image": "NDS-16.png",
         "hotspots": 
         [
@@ -2484,7 +2626,7 @@
         ]
       },
       {
-        "step": 17,
+        "step": 18,
         "image": "NDS-17.png",
         "hotspots": 
         [
@@ -2503,7 +2645,7 @@
         ]
       },
       {
-        "step": 18,
+        "step": 19,
         "image": "NDS-18.png",
         "hotspots": 
         [
@@ -2522,7 +2664,7 @@
         ]
       },
       {
-        "step": 19,
+        "step": 20,
         "image": "NDS-19.png",
         "hotspots": 
         [
@@ -2541,7 +2683,7 @@
         ]
       },
       {
-        "step": 20,
+        "step": 21,
         "image": "NDS-20.png",
         "hotspots": 
         [
@@ -2560,7 +2702,7 @@
         ]
       },
       {
-        "step": 21,
+        "step": 22,
         "image": "NDS-21.png",
         "hotspots": 
         [
@@ -2579,7 +2721,7 @@
         ]
       },
       {
-        "step": 22,
+        "step": 23,
         "image": "NDS-22.png",
         "hotspots": 
         [
@@ -2598,7 +2740,7 @@
         ]
       },
       {
-        "step": 23,
+        "step": 24,
         "image": "NDS-23.png",
         "hotspots": 
         [
