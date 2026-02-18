@@ -967,6 +967,303 @@
     ]
   },
   {
+    "id": "sendToFNS",
+    "title": "Работа с требованиями ФНС",
+    "name": "Подготовка и отправка документов в ответ на требование",
+    "completeText": "Вы научились реагировать на требования ФНС",
+    "scenarioCategory": "sendToFNS",
+    "steps": [
+      {
+        "step": 1,
+        "image": "ST-FNS-1.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.1,
+            "yPercent": 3.9,
+            "width": 5.3,
+            "height": 4.8,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Чтобы предоставить ответ на требование, нажмите на \"Ответить\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "ST-FNS-2.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 45.4,
+            "yPercent": 52.0,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для случаев, когда нет возможности представить документы на требование в срок, вы вправе попросить у ФНС отсрочку. Для этого выберите \"Уведомление о невозможности ответить в срок\"",
+            "invisible": true,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "ST-FNS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 11.4,
+            "yPercent": 31.6,
+            "width": 28.4,
+            "height": 6.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Чтобы подготовить и отправить документы в ответ на требование необходимо выбрать \"Ответ на требование документов (информации)\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "ST-FNS-3.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 39.9,
+            "yPercent": 32.2,
+            "width": 7.4,
+            "height": 4.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"ОК\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "image": "ST-FNS-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 64.0,
+            "yPercent": 28.0,
+            "width": 11.9,
+            "height": 6.9,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для вставки документов в ответ на требование используются кнопки \"Загрузить с диска\" и \"Выбрать из базы\". Загрузим с диска",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "image": "ST-FNS-5.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 65.0,
+            "yPercent": 33.2,
+            "width": 27.7,
+            "height": 6.0,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Если сканированные документы не были загружены в информационную базу ранее, то необходимо их загрузить. Выберем \"Сканированные документы и PDF-файлы\"",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "image": "ST-FNS-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 65.0,
+            "yPercent": 33.2,
+            "width": 27.7,
+            "height": 6.0,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Далее выберите файлы документов и нажмите кнопку \"Открыть\"",
+            "invisible": true,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "image": "ST-FNS-6.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 21.4,
+            "yPercent": 22.7,
+            "width": 24.7,
+            "height": 12.4,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "При этом появляется форма \"Подготовка документа к отправке\", в которой отобразятся добавленные файлы. Программа автоматически определяет вид PDF приложенных файлов, но при необходимости, вы можете выбрать один из возможных видов",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "image": "ST-FNS-7.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 74.9,
+            "yPercent": 46.7,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "При наличии вы можете приложить файл электронной подписи, созданный вашей организацией или контрагентом, в графе Эл. подпись. В случае если для файлов подпись не будет приложена, при отправке ответа файлы будут подписаны электронной подписью пользователя-отправителя",
+            "invisible": true,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 10,
+        "image": "ST-FNS-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.4,
+            "yPercent": 25.5,
+            "width": 98.8,
+            "height": 32.2,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Заполните следующее поле. В поле \"Наименование, реквизиты или иные признаки документа-источника\" указать можно номер, дату, вид документа-источника или любую другую информацию в произвольном виде",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 11,
+        "image": "ST-FNS-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 0.4,
+            "yPercent": 58.3,
+            "width": 98.6,
+            "height": 34.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Если добавляемый документ имеет документ-основание (договор, заказ-наряд, счет на оплату, заявка покупателя или иной первичный документ, подтверждающий возникновение договорных отношений между участниками сделки), заполните это поле",
+            "invisible": false,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "image": "ST-FNS-9.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 42.2,
+            "yPercent": 95.9,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "После заполнения сведений нажмите кнопку \"Добавить в ответ на требование\". Появится форма \"Пункт требования\", где необходимо указать пункт требования, в ответ на который отправляется документ",
+            "invisible": true,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 13,
+        "image": "ST-FNS-10.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 93.4,
+            "yPercent": 28.4,
+            "width": 4.7,
+            "height": 4.9,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Данные о документе будут сохранены в форме ответа на требование. Для работы со строкой документа используйте кнопки формы ответа на требование по кнопке \"Еще\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 14,
+        "image": "ST-FNS-11.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 60.9,
+            "yPercent": 47.5,
+            "width": 39.0,
+            "height": 5.4,
+            "tooltipPosition": "left",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Если сканированные документы были загружены в информационную базу ранее, можно использовать кнопку \"Выбрать из базы\" – \"Сканированные документы и PDF-файлы из предыдущих ответов\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "-15%"
+          }
+        ]
+      },
+      {
+        "step": 15,
+        "image": "ST-FNS-12.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 1.0,
+            "yPercent": 23.2,
+            "width": 37.5,
+            "height": 5.1,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В открывшемся окне выберите нужные документы и нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "workingWithFNS-CUT",
     "title": "Работа с требованиями ФНС",
     "name": "Работа с требованиями ФНС",
