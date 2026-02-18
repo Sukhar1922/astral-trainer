@@ -2703,6 +2703,25 @@
       },
       {
         "step": 4,
+        "image": "Re-SUW-SFR-4.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 32.2,
+            "yPercent": 24.9,
+            "width": 17.2,
+            "height": 4.1,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Перейдём в \"Настройки обмена с нонтролирующими органами\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 5,
         "image": "SUW-SFR-4.png",
         "hotspots": 
         [
@@ -2721,7 +2740,7 @@
         ]
       },
       {
-        "step": 5,
+        "step": 6,
         "image": "SUW-SFR-5.png",
         "hotspots": 
         [
@@ -2740,7 +2759,7 @@
         ]
       },
       {
-        "step": 6,
+        "step": 7,
         "image": "SUW-SFR-6.png",
         "hotspots": 
         [
@@ -2759,7 +2778,45 @@
         ]
       },
       {
-        "step": 7,
+        "step": 8,
+        "image": "Re-SUW-SFR-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 16.8,
+            "yPercent": 28.8,
+            "width": 64.2,
+            "height": 3.6,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Выберите нужную машиночитаемую доверенность",
+            "invisible": false,
+            "mascotPosition": "left"
+          } 
+        ]
+      },
+      {
+        "step": 9,
+        "image": "Re-SUW-SFR-8.png",
+        "hotspots": 
+        [
+          {
+            "xPercent": 16.5,
+            "yPercent": 16.5,
+            "width": 5.2,
+            "height": 5.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          } 
+        ]
+      },
+      {
+        "step": 10,
         "image": "SUW-SFR-7.png",
         "hotspots": 
         [
@@ -2778,7 +2835,7 @@
         ]
       },
       {
-        "step": 8,
+        "step": 11,
         "image": "SUW-SFR-8.png",
         "hotspots": 
         [
