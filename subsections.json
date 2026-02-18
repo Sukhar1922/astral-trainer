@@ -78,6 +78,10 @@
   },
   {
     "id": "promoENS",
-    "title": "Подключение промо ЕНС"
+    "title": "Подключение промо ЕНС",
+    "subsections": [
+      {"title": "Подключение через уведомление", "id": "promoViaNotify"},
+      {"title": "Подключение через заявление", "id": "promoViaStatement"}
+    ]
   }
 ]

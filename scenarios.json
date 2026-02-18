@@ -7549,11 +7549,11 @@
     ]
   },
   {
-    "id": "promoENS",
+    "id": "promoViaNotify",
     "title": "Подключение промо ЕНС",
-    "name": "Подключение промо ЕНС",
-    "completeText": "",
-    "scenarioCategory": "promoENS",
+    "name": "Подключение через уведомление",
+    "completeText": "Вы узнали, как подключать Промо ЕНС через уведомление",
+    "scenarioCategory": "promoViaNotify",
     "steps": [
       {
         "step": 1,
@@ -7588,6 +7588,88 @@
             "tooltipText": "В открывшемся информационном окне нажмите кнопку \"Отправить заявление\"",
             "invisible": false,
             "mascotPosition": "left"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "promoViaStatement",
+    "title": "Подключение промо ЕНС",
+    "name": "Подключение через заявление",
+    "completeText": "Вы узнали, как подключать Промо ЕНС через заявление",
+    "scenarioCategory": "promoViaStatement",
+    "steps": [
+      {
+        "step": 1,
+        "image": "Promo-1.png",
+        "hotspots": [
+          {
+            "xPercent": 67.7,
+            "yPercent": 20.4,
+            "width": 7.3,
+            "height": 4.7,
+            "tooltipPosition": "bottom",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Для подключения к сервису 1С-Отчетность по тарифу «Промо ЕНС» перейдите в \"Отчеты\" → \"Регламентированные отчеты\" → \"Настройки\" → \"Список заявлений\"",
+            "invisible": true,
+            "mascotPosition": "left"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "image": "Promo-1.png",
+        "hotspots": [
+          {
+            "xPercent": 10.2,
+            "yPercent": 21.2,
+            "width": 26.0,
+            "height": 3.2,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Нажмите на \"Создать заявление\", затем во всплывшем окне нажмите на \"Подключиться с тарифом \"Промо ЕНС\"\"",
+            "invisible": false,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "image": "Promo-2.png",
+        "hotspots": [
+          {
+            "xPercent": 28.6,
+            "yPercent": 81.7,
+            "width": 0.0,
+            "height": 0.0,
+            "tooltipPosition": "right",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "Можно добавить одно или несколько направлений ФНС (количество неограниченно). При выборе любого другого контролирующего органа появится сообщение о том, что при выборе данного направления вы не сможете подключить тариф «Промо ЕНС»",
+            "invisible": true,
+            "mascotPosition": "right"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "image": "Promo-3.png",
+        "hotspots": [
+          {
+            "xPercent": 44.7,
+            "yPercent": 83.6,
+            "width": 50.6,
+            "height": 8.1,
+            "tooltipPosition": "top",
+            "tooltipAlign": "center",
+            "tooltipTitle": "",
+            "tooltipText": "В качестве сертификата электронной подписи будет выбран пункт \"Использовать существующий сертификат\". Нажмите кнопку \"Выбрать\"",
+            "invisible": false,
+            "mascotPosition": "left",
+            "verticalOffset": "10%"
           }
         ]
       }
