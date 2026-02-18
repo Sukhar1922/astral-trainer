@@ -642,7 +642,7 @@
     "title": "Работа с требованиями ФНС",
     "name": "Получение требований и уведомлений ФНС",
     "completeText": "Вы теперь знаете, где найти требования ФНС",
-    "scenarioCategory": "gettingFNS",
+    "scenarioCategory": "workingWithFNS",
     "steps": [
       {
         "step": 1,
@@ -765,7 +765,7 @@
     "title": "Работа с требованиями ФНС",
     "name": "Подтверждение приема требования",
     "completeText": "Вы ознакомились с информацией, \nпо приёму требований ФНС",
-    "scenarioCategory": "confirmationFNS",
+    "scenarioCategory": "workingWithFNS",
     "steps": [
       {
         "step": 1,
@@ -971,7 +971,7 @@
     "title": "Работа с требованиями ФНС",
     "name": "Подготовка и отправка документов в ответ на требование",
     "completeText": "Вы научились реагировать на требования ФНС",
-    "scenarioCategory": "sendToFNS",
+    "scenarioCategory": "workingWithFNS",
     "steps": [
       {
         "step": 1,
@@ -7553,7 +7553,7 @@
     "title": "Подключение промо ЕНС",
     "name": "Подключение через уведомление",
     "completeText": "Вы узнали, как подключать Промо ЕНС через уведомление",
-    "scenarioCategory": "promoViaNotify",
+    "scenarioCategory": "promoENS",
     "steps": [
       {
         "step": 1,
@@ -7598,7 +7598,7 @@
     "title": "Подключение промо ЕНС",
     "name": "Подключение через заявление",
     "completeText": "Вы узнали, как подключать Промо ЕНС через заявление",
-    "scenarioCategory": "promoViaStatement",
+    "scenarioCategory": "promoENS",
     "steps": [
       {
         "step": 1,

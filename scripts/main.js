@@ -203,6 +203,7 @@ function backToCategory() {
   if (currentScenario.scenarioCategory == currentScenario.id){
     const url = new URL(window.location);
     window.location.href = url.origin;
+    freshLocalStorage();
     return;
   }
   window.location.href = "subsections.html?parent=" + encodeURIComponent(currentScenario.scenarioCategory);
