@@ -5859,7 +5859,7 @@
             "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- режима в 1С должны быть заведены пользователи. Для их создания перейдите в раздел \"Администрирование\" (шаг 1)",
+            "tooltipText": "Для подключения многопользовательского режима в 1С должны быть заведены пользователи. Для их создания перейдите в раздел \"Администрирование\"",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -5931,7 +5931,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Введите полное имя пользователя (шаг 5)",
+            "tooltipText": "Введите полное имя пользователя",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -5949,7 +5949,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Введите имя пользователя для входа (шаг 6)",
+            "tooltipText": "Введите имя пользователя для входа",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -5967,7 +5967,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Полное имя и имя для входа введены. Нажмите на \"Завершить\" (шаг 7)",
+            "tooltipText": "Полное имя и имя для входа введены. Нажмите на \"Завершить\"",
             "invisible": true,
             "mascotPosition": "left"
           }
@@ -5994,7 +5994,7 @@
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- Нажмите на значение, указанное в строке \"Пользователи\" (шаг 1)",
+            "tooltipText": "--||--||-- Нажмите на значение, указанное в строке \"Пользователи\"",
             "invisible": false,
             "mascotPosition": "left"
           }
@@ -6157,7 +6157,7 @@
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- Выделите направление (шаг 10)",
+            "tooltipText": "Выделите направление",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -6283,7 +6283,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- изменения (шаг 17)",
+            "tooltipText": "Нажмите на \"Сохранить\", чтобы применить изменения",
             "invisible": false,
             "mascotPosition": "right",
             "verticalOffset": "-20%"
@@ -6302,7 +6302,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- необходимые поля заявления (шаг 18)",
+            "tooltipText": "Заполните необходимые поля заявления",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -6320,7 +6320,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Нажмите кнопку \"Отправить заявление\" (шаг 19)",
+            "tooltipText": "Нажмите кнопку \"Отправить заявление\"",
             "invisible": false,
             "mascotPosition": "right",
             "verticalOffset": "-20%"
@@ -6438,7 +6438,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Добавим пользователя, чтобы настроить ему права администратора (шаг 6)",
+            "tooltipText": "Добавим пользователя, чтобы настроить ему права администратора",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -6474,7 +6474,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Нажмите кнопку \"Изменить\" (шаг 8)",
+            "tooltipText": "Нажмите кнопку \"Изменить\"",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -6691,7 +6691,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Сохраните изменения (шаг 20)",
+            "tooltipText": "Сохраните изменения",
             "invisible": false,
             "mascotPosition": "right",
             "verticalOffset": "-20%"
@@ -6757,7 +6757,7 @@
             "tooltipPosition": "bottom",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- получить роль администратора. Для этого отправьте заявление на изменение. Поставьте флажок \"Права доступа\" (шаг 1)",
+            "tooltipText": "Пользователь может подключиться без приглашения и получить роль администратора. Для этого отправьте заявление на изменение. Поставьте флажок \"Права доступа\"",
             "invisible": false,
             "mascotPosition": "right"
           }
@@ -6956,7 +6956,7 @@
             "tooltipPosition": "top",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "!(Сам додумал) Нажмите на \"Отправить заявление\" (шаг 12)",
+            "tooltipText": "Нажмите на \"Отправить заявление\"",
             "invisible": false,
             "mascotPosition": "left",
             "verticalOffset": "-20%"
@@ -7357,7 +7357,7 @@
             "tooltipPosition": "right",
             "tooltipAlign": "center",
             "tooltipTitle": "",
-            "tooltipText": "--||--||-- продление сформируйте заявление на изменение настроек подключения к 1С-Отчетности. Для этого откройте раздел \"Отчёты\" (шаг 1)",
+            "tooltipText": "Для отправки заявления на дистанционное продление сформируйте заявление на изменение настроек подключения к 1С-Отчетности. Для этого откройте раздел \"Отчёты\"",
             "invisible": false,
             "mascotPosition": "right"
           }
