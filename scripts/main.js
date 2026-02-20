@@ -33,6 +33,9 @@ async function loadScenario() {
     console.log('Looking for scenario with id:', id);
     const scenario = scenarios.find(s => String(s.id) === id);
     console.log('Found scenario:', scenario);
+    
+    freshLocalStorage();
+    
     return scenario || null; 
   } catch (err) {
     console.error('Ошибка при загрузке сценария:', err);
