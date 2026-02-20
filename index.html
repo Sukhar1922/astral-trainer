@@ -62,6 +62,7 @@
       </div>
     </main>
   </body>
+  <script src="scripts/main.js"></script>
   <script>
     document.querySelector('.card-grid').addEventListener('click', function(e) {
       if (e.target.classList.contains('card-button') && e.target.classList.contains('single') && e.target.dataset.id) {
@@ -73,6 +74,7 @@
         const id = e.target.dataset.id;
         window.location.href = 'subsections.html?parent=' + id;
       }
+      freshLocalStorage();
     });
   </script>
 </html>

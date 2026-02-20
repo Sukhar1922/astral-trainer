@@ -34,7 +34,7 @@ async function loadScenario() {
     const scenario = scenarios.find(s => String(s.id) === id);
     console.log('Found scenario:', scenario);
     
-    freshLocalStorage();
+    // freshLocalStorage();
     
     return scenario || null; 
   } catch (err) {
