@@ -205,7 +205,7 @@ function backToCategory() {
   console.log("scenarioId: " + currentScenario.id);
   if (currentScenario.scenarioCategory == currentScenario.id){
     const url = new URL(window.location);
-    window.location.href = url.origin;
+    window.location.href = "./";
     freshLocalStorage();
     return;
   }
